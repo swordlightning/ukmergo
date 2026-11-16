@@ -162,9 +162,29 @@
 
   function planIfReady() { if (state.from && state.to) plan(); }
 
-  $('planForm').addEventListener('submit', e => {
+  // Text typed but nothing picked from the list: take the first match.
+  async function resolveTyped(which) {
+    if (state[which]) return true;
+    const q = $(which + 'Input').value.trim();
+    if (q.length < 2) return false;
+    let found = localMatches(q);
+    if (!found.length) { try { found = await geocode(q + ', Ukmergė'); } catch (e) { found = []; } }
+    if (!found.length) return false;
+    setPoint(which, { lat: found[0].lat, lon: found[0].lon, label: found[0].label });
+    return true;
+  }
+
+  $('planForm').addEventListener('submit', async e => {
     e.preventDefault();
-    if (!state.from || !state.to) { showMsg('Pasirinkite, iš kur ir į kur keliaujate (iš sąrašo, žemėlapyje arba „Mano vieta“).', true); return; }
+    if (!data) { showMsg('Tvarkaraščiai dar įkeliami – palaukite akimirką.', true); return; }
+    const okFrom = await resolveTyped('from'), okTo = await resolveTyped('to');
+    if (!okFrom || !okTo) {
+      const which = !okFrom ? '„Iš kur“' : '„Į kur“';
+      showMsg($(!okFrom ? 'fromInput' : 'toInput').value.trim()
+        ? `Nepavyko rasti vietos laukelyje ${which}. Pabandykite kitaip (pvz. „Vilniaus g. 10“) arba pažymėkite tašką žemėlapyje.`
+        : 'Pasirinkite, iš kur ir į kur keliaujate (įveskite adresą, paspauskite ◎ „Mano vieta“ arba žemėlapį).', true);
+      return;
+    }
     plan();
   });
 
