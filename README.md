@@ -4,8 +4,23 @@ A simple trip planner for Ukmergė (Lithuania): enter an address or use your
 location, and get the fastest way to your destination by walking, by city bus,
 or by both.
 
-Status: **bus timetable data is ready**. The web app itself has not been
-started yet.
+Status: **first working version.** Open `index.html` through a web server
+(e.g. GitHub Pages, or `python3 -m http.server` locally – opening the file
+directly does not work because the browser blocks loading the JSON).
+
+## App
+
+* `index.html`, `css/style.css`, `js/app.js` – the page: Leaflet map with
+  OpenStreetMap tiles, address search (Nominatim, limited to Ukmergė, plus stop
+  names), “my location” (browser geolocation, needs HTTPS), click on the map to
+  pick points, date/time choice.
+* `js/router.js` – the route planner (Connection Scan Algorithm): walking to
+  stops, buses, changes between buses, walking to the destination. Walking is
+  estimated as straight-line distance × 1.3 at 4.5 km/h.
+* Anything doubtful is shown with **(?)**: trips whose printed times were
+  corrected or are unclear (`uncertain` in the JSON) and stops whose position
+  is approximate (`approx`). See `data/ISSUES.md`.
+* Tests: `node test/router.test.js`.
 
 ## Data
 
@@ -14,7 +29,8 @@ started yet.
 | `data/raw/*.txt` | Hand transcription of all 80 stop timetable signs (valid from 2026-10-19), one file per sign, exactly as printed. Format: `data/raw/FORMAT.md` |
 | `data/timetable.json` | Generated: routes, stops, stations, calendar and **291 trips** with a time at every stop. This is what the app reads. |
 | `data/ISSUES.md` | Misprints found in the official signs, what was corrected (with evidence) and what is still unclear. |
-| `data/stops_from_gtfs.json` | 49 city stop coordinates from the official GTFS export (visimarsrutai.lt). |
+| `data/stop_coords.json` | Position of every stop sign: official GTFS (visimarsrutai.lt), OpenStreetMap, or approximate (marked). |
+| `data/stops_from_gtfs.json` | City stop coordinates from the official GTFS export (visimarsrutai.lt). |
 
 ### `timetable.json` in short
 

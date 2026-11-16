@@ -6,6 +6,7 @@
   "generated": "2026-11-16",
   "times": "HH:MM local time (Europe/Vilnius); 24:xx = after midnight of the same service day",
   "tripStops": "Only times printed on stop signs. The final stop (terminus arrival) is often not printed.",
+  "uncertain": "Trips with \"uncertain\" (list of reasons, Lithuanian) are shown with (?) in the app. Stops with approx=true have an approximate position.",
   "corrected": "Trips with \"corrected\" contain a time fixed from an obvious misprint: {stop: printed time}. See data/ISSUES.md."
  },
  "calendar": {
@@ -63,9 +64,9 @@
     "antakalnio-link-centro",
     "antakalnio-link-zaliojo-vnk"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.24448,
+   "lon": 24.77271,
+   "approx": true
   },
   "anyksciu": {
    "name": "Anykščių",
@@ -74,7 +75,7 @@
    ],
    "lat": 55.256894,
    "lon": 24.783307,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "as": {
    "name": "Autobusų stotis",
@@ -83,9 +84,9 @@
     "as-vytauto-g-link-centro",
     "as-vytauto-g-link-dukstynos"
    ],
-   "lat": 55.25944,
-   "lon": 24.790948,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "lat": 55.259364,
+   "lon": 24.791351,
+   "approx": true
   },
   "autoservisas": {
    "name": "Autoservisas",
@@ -94,7 +95,7 @@
    ],
    "lat": 55.252711,
    "lon": 24.77302,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "basanaviciaus": {
    "name": "Basanavičiaus",
@@ -103,7 +104,7 @@
    ],
    "lat": 55.251993,
    "lon": 24.77119,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "baznycios": {
    "name": "Bažnyčios",
@@ -111,9 +112,9 @@
     "baznycios",
     "baznycios-link-pasiles"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.214052,
+   "lon": 24.787032,
+   "approx": false
   },
   "biofabrikas": {
    "name": "Biofabrikas",
@@ -123,7 +124,7 @@
    ],
    "lat": 55.244009,
    "lon": 24.722545,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "boruvka": {
    "name": "Boruvka",
@@ -133,16 +134,16 @@
    ],
    "lat": 55.240387,
    "lon": 24.790864,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": true
   },
   "deltuva": {
    "name": "Deltuva",
    "stops": [
     "deltuva"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.240349,
+   "lon": 24.684717,
+   "approx": false
   },
   "deltuvos-kapines": {
    "name": "Deltuvos kapinės",
@@ -150,18 +151,18 @@
     "deltuvos-kapines-link-centro",
     "deltuvos-kapines-link-deltuvos"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.241014,
+   "lon": 24.683434,
+   "approx": true
   },
   "dukstyna": {
    "name": "Dukstyna",
    "stops": [
     "dukstyna"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.273943,
+   "lon": 24.815549,
+   "approx": false
   },
   "dukstynos-kaimas": {
    "name": "Dukstynos kaimas",
@@ -169,18 +170,18 @@
     "dukstynos-kaimas-link-dukstynos",
     "dukstyvos-kaimas-link-centro"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.267743,
+   "lon": 24.806321,
+   "approx": false
   },
   "gamyklu": {
    "name": "Gamyklų",
    "stops": [
     "gamyklu"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.234882,
+   "lon": 24.762915,
+   "approx": true
   },
   "geliu": {
    "name": "Gėlių",
@@ -190,7 +191,7 @@
    ],
    "lat": 55.234882,
    "lon": 24.762915,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": true
   },
   "gelzbetonis": {
    "name": "Gelžbetonis",
@@ -201,7 +202,7 @@
    ],
    "lat": 55.241958,
    "lon": 24.785517,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": true
   },
   "kauno": {
    "name": "Kauno",
@@ -211,7 +212,7 @@
    ],
    "lat": 55.246393,
    "lon": 24.757216,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "kestucio-a": {
    "name": "Kęstučio a.",
@@ -221,16 +222,16 @@
    ],
    "lat": 55.250056,
    "lon": 24.763773,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "kokliu": {
    "name": "Koklių",
    "stops": [
     "kokliu"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.233965,
+   "lon": 24.782047,
+   "approx": true
   },
   "kreksliai": {
    "name": "Krekšliai",
@@ -238,9 +239,9 @@
     "kreksliai-link-centro",
     "kreksliai-link-zaliojo-vnk"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.246114,
+   "lon": 24.795916,
+   "approx": true
   },
   "kudirkos": {
    "name": "Kudirkos",
@@ -250,7 +251,7 @@
    ],
    "lat": 55.254911,
    "lon": 24.778337,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "ligonine": {
    "name": "Ligoninė",
@@ -258,9 +259,9 @@
     "ligonine-link-as",
     "ligonine-link-centro"
    ],
-   "lat": 55.258427,
-   "lon": 24.786883,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "lat": 55.258335,
+   "lon": 24.786621,
+   "approx": false
   },
   "linu": {
    "name": "Linų",
@@ -270,7 +271,7 @@
    ],
    "lat": 55.238739,
    "lon": 24.776114,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": true
   },
   "lytagros-centras": {
    "name": "Lytagros centras",
@@ -278,9 +279,9 @@
     "lytagros-centras-link-as",
     "lytagros-centras-link-biofabriko"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.246787,
+   "lon": 24.733121,
+   "approx": true
   },
   "misku": {
    "name": "Miškų",
@@ -288,9 +289,9 @@
     "misku",
     "misku-link-pasiles"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.228941,
+   "lon": 24.78394,
+   "approx": true
   },
   "muziejus": {
    "name": "Muziejus",
@@ -300,16 +301,16 @@
    ],
    "lat": 55.25009,
    "lon": 24.76623,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "narbuto": {
    "name": "Narbuto",
    "stops": [
     "narbuto"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.252132,
+   "lon": 24.736901,
+   "approx": true
   },
   "pasile": {
    "name": "Pašilė",
@@ -317,9 +318,9 @@
     "pasile",
     "pasile-is-varines"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.219226,
+   "lon": 24.79092,
+   "approx": false
   },
   "pasiles-kryzkele": {
    "name": "Pašilės kryžkelė",
@@ -327,9 +328,9 @@
     "pasiles-kryzkele",
     "pasiles-kryzkele-link-pasiles"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.217971,
+   "lon": 24.790797,
+   "approx": true
   },
   "pienine": {
    "name": "Pieninė",
@@ -338,7 +339,7 @@
    ],
    "lat": 55.238084,
    "lon": 24.730787,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "pivonijos": {
    "name": "Pivonijos",
@@ -346,9 +347,9 @@
     "pivonijos",
     "pivonijos-link-centro"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.239932,
+   "lon": 24.7766,
+   "approx": true
   },
   "pramones": {
    "name": "Pramonės",
@@ -358,7 +359,7 @@
    ],
    "lat": 55.243168,
    "lon": 24.747502,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "pusu": {
    "name": "Pušų",
@@ -366,9 +367,9 @@
     "pusu",
     "pusu-link-centro"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.235436,
+   "lon": 24.780628,
+   "approx": true
   },
   "saltalankiu": {
    "name": "Šaltalankių",
@@ -376,9 +377,9 @@
     "saltalankiu-link-centro",
     "saltalankiu-link-zaliojo-vnk"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.246117,
+   "lon": 24.803606,
+   "approx": true
   },
   "senasis-pastas": {
    "name": "Senasis paštas",
@@ -388,7 +389,7 @@
    ],
    "lat": 55.244881,
    "lon": 24.752677,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "smeliu": {
    "name": "Smėlių",
@@ -396,9 +397,9 @@
     "smeliu",
     "smeliu-link-centro"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.243339,
+   "lon": 24.776601,
+   "approx": true
   },
   "sodai": {
    "name": "Sodai",
@@ -408,9 +409,9 @@
     "sodai-link-deltuvos",
     "sodai-link-dukstynos"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.253182,
+   "lon": 24.752637,
+   "approx": false
   },
   "statikai": {
    "name": "Statikai",
@@ -420,18 +421,18 @@
     "statikai-uz-biofabriko-link-as",
     "statikai-uz-biofabriko-link-deltuvos"
    ],
-   "lat": 55.244258,
-   "lon": 24.728074,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "lat": 55.243753,
+   "lon": 24.722531,
+   "approx": false
   },
   "turgus": {
    "name": "Turgus",
    "stops": [
     "turgus"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "ambiguous (2 GTFS points 270 m apart)"
+   "lat": 55.249893,
+   "lon": 24.758307,
+   "approx": true
   },
   "umega": {
    "name": "Umega",
@@ -441,16 +442,16 @@
    ],
    "lat": 55.240339,
    "lon": 24.738869,
-   "coordSource": "GTFS (visimarsrutai.lt) name match – verify on the map"
+   "approx": false
   },
   "varine": {
    "name": "Varinė",
    "stops": [
     "varine"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.2195,
+   "lon": 24.7905,
+   "approx": true
   },
   "vysniu": {
    "name": "Vyšnių",
@@ -458,18 +459,18 @@
     "vysniu-9link-zaliojo-vnk",
     "vysniu-link-centro"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.242821,
+   "lon": 24.793415,
+   "approx": true
   },
   "zaliasis-vienkiemis": {
    "name": "Žaliasis vienkiemis",
    "stops": [
     "zaliasis-vienkiemis"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.245544,
+   "lon": 24.811695,
+   "approx": false
   },
   "ziedo": {
    "name": "Žiedo",
@@ -477,9 +478,9 @@
     "ziedo-link-as",
     "ziedo-link-narbuto"
    ],
-   "lat": null,
-   "lon": null,
-   "coordSource": "missing"
+   "lat": 55.245884,
+   "lon": 24.74256,
+   "approx": true
   }
  },
  "stops": {
@@ -487,481 +488,801 @@
    "name": "Antakalnio",
    "station": "antakalnio",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097023/antakalnio-link-centro_6714.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097023/antakalnio-link-centro_6714.jpg",
+   "lat": 55.24444,
+   "lon": 24.77252,
+   "approx": true,
+   "coordSource": "approx"
   },
   "antakalnio-link-zaliojo-vnk": {
    "name": "Antakalnio",
    "station": "antakalnio",
    "towards": "į Žaliąjį vnk.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097033/antakalnio-link-zaliojo-vnk_7386.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097033/antakalnio-link-zaliojo-vnk_7386.jpg",
+   "lat": 55.24452,
+   "lon": 24.7729,
+   "approx": true,
+   "coordSource": "approx"
   },
   "anyksciu": {
    "name": "Anykščių",
    "station": "anyksciu",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793096916/anyksciu_4255.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793096916/anyksciu_4255.jpg",
+   "lat": 55.256894,
+   "lon": 24.783307,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "as": {
    "name": "Autobusų stotis",
    "station": "as",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097044/as_2375.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097044/as_2375.jpg",
+   "lat": 55.259569,
+   "lon": 24.790478,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "as-vytauto-g-link-centro": {
    "name": "Autobusų stotis (Vytauto g.)",
    "station": "as",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097053/as-vytauto-g-link-centro_8723.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097053/as-vytauto-g-link-centro_8723.jpg",
+   "lat": 55.259262,
+   "lon": 24.791787,
+   "approx": true,
+   "coordSource": "approx"
   },
   "as-vytauto-g-link-dukstynos": {
    "name": "Autobusų stotis (Vytauto g.)",
    "station": "as",
    "towards": "į Dukstyną",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097065/as-vytauto-g-link-dukstynos_2590.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097065/as-vytauto-g-link-dukstynos_2590.jpg",
+   "lat": 55.259262,
+   "lon": 24.791787,
+   "approx": true,
+   "coordSource": "approx"
   },
   "autoservisas": {
    "name": "Autoservisas",
    "station": "autoservisas",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097075/autoservisas_6340.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097075/autoservisas_6340.jpg",
+   "lat": 55.252711,
+   "lon": 24.77302,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "basanaviciaus": {
    "name": "Basanavičiaus",
    "station": "basanaviciaus",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097084/basanaviciaus_7023.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097084/basanaviciaus_7023.jpg",
+   "lat": 55.251993,
+   "lon": 24.77119,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "baznycios": {
    "name": "Bažnyčios",
    "station": "baznycios",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097094/baznycios_7592.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097094/baznycios_7592.jpg",
+   "lat": 55.214052,
+   "lon": 24.787032,
+   "approx": false,
+   "coordSource": "osm"
   },
   "baznycios-link-pasiles": {
    "name": "Bažnyčios",
    "station": "baznycios",
    "towards": "į Pašilę",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097103/baznycios-link-pasiles_9035.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097103/baznycios-link-pasiles_9035.jpg",
+   "lat": 55.214052,
+   "lon": 24.787032,
+   "approx": false,
+   "coordSource": "osm"
   },
   "biofabrikas-link-centro": {
    "name": "Biofabrikas",
    "station": "biofabrikas",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097120/biofabrikas-link-centro_4774.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097120/biofabrikas-link-centro_4774.jpg",
+   "lat": 55.244009,
+   "lon": 24.722545,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "biofabrikas-link-deltuvos": {
    "name": "Biofabrikas",
    "station": "biofabrikas",
    "towards": "į Deltuvą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097128/biofabrikas-link-deltuvos_3400.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097128/biofabrikas-link-deltuvos_3400.jpg",
+   "lat": 55.244009,
+   "lon": 24.722545,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "boruvka-link-centro": {
    "name": "Boruvka",
    "station": "boruvka",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097138/boruvka-link-centro_9090.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097138/boruvka-link-centro_9090.jpg",
+   "lat": 55.240387,
+   "lon": 24.790864,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "boruvka-link-zaliojo-vnk": {
    "name": "Boruvka",
    "station": "boruvka",
    "towards": "į Žaliąjį vnk.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097149/boruvka-link-zaliojo-vnk_2798.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097149/boruvka-link-zaliojo-vnk_2798.jpg",
+   "lat": 55.240387,
+   "lon": 24.790864,
+   "approx": true,
+   "coordSource": "approx"
   },
   "deltuva": {
    "name": "Deltuva",
    "station": "deltuva",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097158/deltuva_3949.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097158/deltuva_3949.jpg",
+   "lat": 55.240349,
+   "lon": 24.684717,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "deltuvos-kapines-link-centro": {
    "name": "Deltuvos kapinės",
    "station": "deltuvos-kapines",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097184/deltuvos-kapines-link-centro_9835.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097184/deltuvos-kapines-link-centro_9835.jpg",
+   "lat": 55.241014,
+   "lon": 24.683434,
+   "approx": true,
+   "coordSource": "approx"
   },
   "deltuvos-kapines-link-deltuvos": {
    "name": "Deltuvos kapinės",
    "station": "deltuvos-kapines",
    "towards": "į Deltuvą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097168/deltuvos-kapines-link-deltuvos_4940.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097168/deltuvos-kapines-link-deltuvos_4940.jpg",
+   "lat": 55.241014,
+   "lon": 24.683434,
+   "approx": true,
+   "coordSource": "approx"
   },
   "dukstyna": {
    "name": "Dukstyna",
    "station": "dukstyna",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097195/dukstyna_1389.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097195/dukstyna_1389.jpg",
+   "lat": 55.273943,
+   "lon": 24.815549,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "dukstynos-kaimas-link-dukstynos": {
    "name": "Dukstynos kaimas",
    "station": "dukstynos-kaimas",
    "towards": "į Dukstyną",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097205/dukstynos-kaimas-link-dukstynos_4492.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097205/dukstynos-kaimas-link-dukstynos_4492.jpg",
+   "lat": 55.267486,
+   "lon": 24.806039,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "dukstyvos-kaimas-link-centro": {
    "name": "Dukstynos kaimas",
    "station": "dukstynos-kaimas",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097218/dukstyvos-kaimas-link-centro_9877.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097218/dukstyvos-kaimas-link-centro_9877.jpg",
+   "lat": 55.268,
+   "lon": 24.806604,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "gamyklu": {
    "name": "Gamyklų",
    "station": "gamyklu",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097227/gamyklu_9648.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097227/gamyklu_9648.jpg",
+   "lat": 55.234882,
+   "lon": 24.762915,
+   "approx": true,
+   "coordSource": "approx"
   },
   "geliu-link-gamyklu": {
    "name": "Gėlių",
    "station": "geliu",
    "towards": "į Gamyklų g.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097236/geliu-link-gamyklu_4736.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097236/geliu-link-gamyklu_4736.jpg",
+   "lat": 55.234882,
+   "lon": 24.762915,
+   "approx": true,
+   "coordSource": "approx"
   },
   "geliu-link-pivonijos": {
    "name": "Gėlių",
    "station": "geliu",
    "towards": "į Pivonijos g.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097245/geliu-link-pivonijos_5696.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097245/geliu-link-pivonijos_5696.jpg",
+   "lat": 55.234882,
+   "lon": 24.762915,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "gelzbetonis-dariaus-ir-gireno": {
    "name": "Gelžbetonis",
    "station": "gelzbetonis",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097258/gelzbetonis-dariaus-ir-gireno_2083.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097258/gelzbetonis-dariaus-ir-gireno_2083.jpg",
+   "lat": 55.241958,
+   "lon": 24.785517,
+   "approx": true,
+   "coordSource": "approx"
   },
   "gelzbetonis-link-centro": {
    "name": "Gelžbetonis",
    "station": "gelzbetonis",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097292/gelzbetonis-link-centro_8849.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097292/gelzbetonis-link-centro_8849.jpg",
+   "lat": 55.241958,
+   "lon": 24.785517,
+   "approx": true,
+   "coordSource": "approx"
   },
   "gelzbetonis-link-zaliojo-vnk": {
    "name": "Gelžbetonis",
    "station": "gelzbetonis",
    "towards": "į Žaliąjį vnk.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097281/gelzbetonis-link-zaliojo-vnk_7463.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097281/gelzbetonis-link-zaliojo-vnk_7463.jpg",
+   "lat": 55.241958,
+   "lon": 24.785517,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kauno": {
    "name": "Kauno",
    "station": "kauno",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097314/kauno_3107.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097314/kauno_3107.jpg",
+   "lat": 55.246286,
+   "lon": 24.756897,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kauno-link-centro": {
    "name": "Kauno",
    "station": "kauno",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097304/kauno-link-centro_9112.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097304/kauno-link-centro_9112.jpg",
+   "lat": 55.2465,
+   "lon": 24.757536,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kestucio-a-link-as": {
    "name": "Kęstučio a.",
    "station": "kestucio-a",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097327/kestucio-a-link-as_7421.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097327/kestucio-a-link-as_7421.jpg",
+   "lat": 55.249977,
+   "lon": 24.76378,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kestucio-a-link-pienines": {
    "name": "Kęstučio a.",
    "station": "kestucio-a",
    "towards": "į Pieninę",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097337/kestucio-a-link-pienines_7653.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097337/kestucio-a-link-pienines_7653.jpg",
+   "lat": 55.250134,
+   "lon": 24.763766,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kokliu": {
    "name": "Koklių",
    "station": "kokliu",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097346/kokliu_8091.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097346/kokliu_8091.jpg",
+   "lat": 55.233965,
+   "lon": 24.782047,
+   "approx": true,
+   "coordSource": "approx"
   },
   "kreksliai-link-centro": {
    "name": "Krekšliai",
    "station": "kreksliai",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097369/kreksliai-link-centro_3590.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097369/kreksliai-link-centro_3590.jpg",
+   "lat": 55.246114,
+   "lon": 24.795916,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kreksliai-link-zaliojo-vnk": {
    "name": "Krekšliai",
    "station": "kreksliai",
    "towards": "į Žaliąjį vnk.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097356/kreksliai-link-zaliojo-vnk_8146.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097356/kreksliai-link-zaliojo-vnk_8146.jpg",
+   "lat": 55.246114,
+   "lon": 24.795916,
+   "approx": true,
+   "coordSource": "approx"
   },
   "kudirkos-link-as": {
    "name": "Kudirkos",
    "station": "kudirkos",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097380/kudirkos-link-as_6095.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097380/kudirkos-link-as_6095.jpg",
+   "lat": 55.254607,
+   "lon": 24.777705,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "kudirkos-link-centro": {
    "name": "Kudirkos",
    "station": "kudirkos",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097392/kudirkos-link-centro_9108.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097392/kudirkos-link-centro_9108.jpg",
+   "lat": 55.255216,
+   "lon": 24.778968,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "ligonine-link-as": {
    "name": "Ligoninė",
    "station": "ligonine",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097403/ligonine-link-as_3193.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097403/ligonine-link-as_3193.jpg",
+   "lat": 55.258021,
+   "lon": 24.785882,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "ligonine-link-centro": {
    "name": "Ligoninė",
    "station": "ligonine",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097416/ligonine-link-centro_3234.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097416/ligonine-link-centro_3234.jpg",
+   "lat": 55.258648,
+   "lon": 24.78736,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "linu-link-gamyklu": {
    "name": "Linų",
    "station": "linu",
    "towards": "į Gamyklų g.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097427/linu-link-gamyklu_4691.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097427/linu-link-gamyklu_4691.jpg",
+   "lat": 55.238739,
+   "lon": 24.776114,
+   "approx": true,
+   "coordSource": "approx"
   },
   "linu-link-pivonijos": {
    "name": "Linų",
    "station": "linu",
    "towards": "į Pivonijos g.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097437/linu-link-pivonijos_1104.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097437/linu-link-pivonijos_1104.jpg",
+   "lat": 55.238739,
+   "lon": 24.776114,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "lytagros-centras-link-as": {
    "name": "Lytagros centras",
    "station": "lytagros-centras",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097452/lytagros-centras-link-as_5185.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097452/lytagros-centras-link-as_5185.jpg",
+   "lat": 55.246787,
+   "lon": 24.733121,
+   "approx": true,
+   "coordSource": "approx"
   },
   "lytagros-centras-link-biofabriko": {
    "name": "Lytagros centras",
    "station": "lytagros-centras",
    "towards": "į Biofabriką",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097462/lytagros-centras-link-biofabriko_7310.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097462/lytagros-centras-link-biofabriko_7310.jpg",
+   "lat": 55.246787,
+   "lon": 24.733121,
+   "approx": true,
+   "coordSource": "approx"
   },
   "misku": {
    "name": "Miškų",
    "station": "misku",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097480/misku_7648.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097480/misku_7648.jpg",
+   "lat": 55.228941,
+   "lon": 24.78394,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "misku-link-pasiles": {
    "name": "Miškų",
    "station": "misku",
    "towards": "į Pašilę",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097490/misku-link-pasiles_7000.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097490/misku-link-pasiles_7000.jpg",
+   "lat": 55.228941,
+   "lon": 24.78394,
+   "approx": true,
+   "coordSource": "approx"
   },
   "muziejus": {
    "name": "Muziejus",
    "station": "muziejus",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097522/muziejus_1970.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097522/muziejus_1970.jpg",
+   "lat": 55.250293,
+   "lon": 24.766179,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "muziejus-link-as": {
    "name": "Muziejus",
    "station": "muziejus",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097538/muziejus-link-as_7942.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097538/muziejus-link-as_7942.jpg",
+   "lat": 55.249888,
+   "lon": 24.766281,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "narbuto": {
    "name": "Narbuto",
    "station": "narbuto",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097550/narbuto_100.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097550/narbuto_100.jpg",
+   "lat": 55.252132,
+   "lon": 24.736901,
+   "approx": true,
+   "coordSource": "approx"
   },
   "pasile": {
    "name": "Pašilė",
    "station": "pasile",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097622/pasile_8437.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097622/pasile_8437.jpg",
+   "lat": 55.219053,
+   "lon": 24.791003,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "pasile-is-varines": {
    "name": "Pašilė (iš Varinės)",
    "station": "pasile",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097638/pasile-is-varines_3545.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097638/pasile-is-varines_3545.jpg",
+   "lat": 55.219399,
+   "lon": 24.790838,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "pasiles-kryzkele": {
    "name": "Pašilės kryžkelė",
    "station": "pasiles-kryzkele",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097661/pasiles-kryzkele_7798.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097661/pasiles-kryzkele_7798.jpg",
+   "lat": 55.217971,
+   "lon": 24.790797,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "pasiles-kryzkele-link-pasiles": {
    "name": "Pašilės kryžkelė",
    "station": "pasiles-kryzkele",
    "towards": "į Pašilę",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097650/pasiles-kryzkele-link-pasiles_8614.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097650/pasiles-kryzkele-link-pasiles_8614.jpg",
+   "lat": 55.217971,
+   "lon": 24.790797,
+   "approx": true,
+   "coordSource": "approx"
   },
   "pienine": {
    "name": "Pieninė",
    "station": "pienine",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097673/pienine_8647.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097673/pienine_8647.jpg",
+   "lat": 55.238084,
+   "lon": 24.730787,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "pivonijos": {
    "name": "Pivonijos",
    "station": "pivonijos",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097696/pivonijos_8563.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097696/pivonijos_8563.jpg",
+   "lat": 55.239932,
+   "lon": 24.7766,
+   "approx": true,
+   "coordSource": "approx"
   },
   "pivonijos-link-centro": {
    "name": "Pivonijos",
    "station": "pivonijos",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097684/pivonijos-link-centro_8599.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097684/pivonijos-link-centro_8599.jpg",
+   "lat": 55.239932,
+   "lon": 24.7766,
+   "approx": true,
+   "coordSource": "approx"
   },
   "pramones": {
    "name": "Pramonės",
    "station": "pramones",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097722/pramones_3333.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097722/pramones_3333.jpg",
+   "lat": 55.243043,
+   "lon": 24.747121,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "pramones-link-centro": {
    "name": "Pramonės",
    "station": "pramones",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097708/pramones-link-centro_7250.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097708/pramones-link-centro_7250.jpg",
+   "lat": 55.243294,
+   "lon": 24.747884,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "pusu": {
    "name": "Pušų",
    "station": "pusu",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097745/pusu_4399.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097745/pusu_4399.jpg",
+   "lat": 55.235436,
+   "lon": 24.780628,
+   "approx": true,
+   "coordSource": "approx"
   },
   "pusu-link-centro": {
    "name": "Pušų",
    "station": "pusu",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097734/pusu-link-centro_5364.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097734/pusu-link-centro_5364.jpg",
+   "lat": 55.235436,
+   "lon": 24.780628,
+   "approx": true,
+   "coordSource": "approx"
   },
   "saltalankiu-link-centro": {
    "name": "Šaltalankių",
    "station": "saltalankiu",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097978/saltalankiu-link-centro_1249.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097978/saltalankiu-link-centro_1249.jpg",
+   "lat": 55.246117,
+   "lon": 24.803606,
+   "approx": false,
+   "coordSource": "osm"
   },
   "saltalankiu-link-zaliojo-vnk": {
    "name": "Šaltalankių",
    "station": "saltalankiu",
    "towards": "į Žaliąjį vnk.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097965/saltalankiu-link-zaliojo-vnk_2096.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097965/saltalankiu-link-zaliojo-vnk_2096.jpg",
+   "lat": 55.246117,
+   "lon": 24.803606,
+   "approx": true,
+   "coordSource": "approx"
   },
   "senasis-pastas": {
    "name": "Senasis paštas",
    "station": "senasis-pastas",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097799/senasis-pastas_7894.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097799/senasis-pastas_7894.jpg",
+   "lat": 55.245042,
+   "lon": 24.753162,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "senasis-pastas-link-centro": {
    "name": "Senasis paštas",
    "station": "senasis-pastas",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097765/senasis-pastas-link-centro_9817.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097765/senasis-pastas-link-centro_9817.jpg",
+   "lat": 55.24472,
+   "lon": 24.752193,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "smeliu": {
    "name": "Smėlių",
    "station": "smeliu",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098108/smeliu_9101.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098108/smeliu_9101.jpg",
+   "lat": 55.243339,
+   "lon": 24.776601,
+   "approx": true,
+   "coordSource": "approx"
   },
   "smeliu-link-centro": {
    "name": "Smėlių",
    "station": "smeliu",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098097/smeliu-link-centro_109.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098097/smeliu-link-centro_109.jpg",
+   "lat": 55.243339,
+   "lon": 24.776601,
+   "approx": true,
+   "coordSource": "approx"
   },
   "sodai-link-as": {
    "name": "Sodai",
    "station": "sodai",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098120/sodai-link-as_5715.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098120/sodai-link-as_5715.jpg",
+   "lat": 55.242007,
+   "lon": 24.703969,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "sodai-link-centro": {
    "name": "Sodai",
    "station": "sodai",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098134/sodai-link-centro_9368.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098134/sodai-link-centro_9368.jpg",
+   "lat": 55.263998,
+   "lon": 24.800208,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "sodai-link-deltuvos": {
    "name": "Sodai",
    "station": "sodai",
    "towards": "į Deltuvą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098146/sodai-link-deltuvos_8894.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098146/sodai-link-deltuvos_8894.jpg",
+   "lat": 55.242204,
+   "lon": 24.705001,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "sodai-link-dukstynos": {
    "name": "Sodai",
    "station": "sodai",
    "towards": "į Dukstyną",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098158/sodai-link-dukstynos_9725.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098158/sodai-link-dukstynos_9725.jpg",
+   "lat": 55.264519,
+   "lon": 24.801372,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "statikai-link-as": {
    "name": "Statikai",
    "station": "statikai",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098176/statikai-link-as_5.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098176/statikai-link-as_5.jpg",
+   "lat": 55.24322,
+   "lon": 24.717211,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "statikai-pries-biofabrika-link-deltuvos": {
    "name": "Statikai (prieš Biofabriką)",
    "station": "statikai",
    "towards": "į Deltuvą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098197/statikai-pries-biofabrika-link-deltuvos_9002.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098197/statikai-pries-biofabrika-link-deltuvos_9002.jpg",
+   "lat": 55.244252,
+   "lon": 24.727503,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "statikai-uz-biofabriko-link-as": {
    "name": "Statikai (už Biofabriko)",
    "station": "statikai",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098209/statikai-uz-biofabriko-link-as_9296.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098209/statikai-uz-biofabriko-link-as_9296.jpg",
+   "lat": 55.244264,
+   "lon": 24.728644,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "statikai-uz-biofabriko-link-deltuvos": {
    "name": "Statikai (už Biofabriko)",
    "station": "statikai",
    "towards": "į Deltuvą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098218/statikai-uz-biofabriko-link-deltuvos_5236.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793098218/statikai-uz-biofabriko-link-deltuvos_5236.jpg",
+   "lat": 55.243276,
+   "lon": 24.716767,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "turgus": {
    "name": "Turgus",
    "station": "turgus",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097947/turgus_5678.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097947/turgus_5678.jpg",
+   "lat": 55.249893,
+   "lon": 24.758307,
+   "approx": true,
+   "coordSource": "approx"
   },
   "umega-link-as": {
    "name": "Umega",
    "station": "umega",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097925/umega-link-as_885.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097925/umega-link-as_885.jpg",
+   "lat": 55.240551,
+   "lon": 24.73976,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "umega-link-pienines": {
    "name": "Umega",
    "station": "umega",
    "towards": "į Pieninę",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097935/umega-link-pienines_4522.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097935/umega-link-pienines_4522.jpg",
+   "lat": 55.240126,
+   "lon": 24.737979,
+   "approx": false,
+   "coordSource": "gtfs"
   },
   "varine": {
    "name": "Varinė",
    "station": "varine",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097912/varine_5746.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097912/varine_5746.jpg",
+   "lat": 55.2195,
+   "lon": 24.7905,
+   "approx": true,
+   "coordSource": "approx"
   },
   "vysniu-9link-zaliojo-vnk": {
    "name": "Vyšnių",
    "station": "vysniu",
    "towards": "į Žaliąjį vnk.",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097899/vysniu-9link-zaliojo-vnk_2449.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097899/vysniu-9link-zaliojo-vnk_2449.jpg",
+   "lat": 55.242821,
+   "lon": 24.793415,
+   "approx": true,
+   "coordSource": "approx"
   },
   "vysniu-link-centro": {
    "name": "Vyšnių",
    "station": "vysniu",
    "towards": "į centrą",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097878/vysniu-link-centro_6024.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097878/vysniu-link-centro_6024.jpg",
+   "lat": 55.242821,
+   "lon": 24.793415,
+   "approx": true,
+   "coordSource": "approx"
   },
   "zaliasis-vienkiemis": {
    "name": "Žaliasis vienkiemis",
    "station": "zaliasis-vienkiemis",
    "towards": null,
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097860/zaliasis-vienkiemis_2876.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097860/zaliasis-vienkiemis_2876.jpg",
+   "lat": 55.245544,
+   "lon": 24.811695,
+   "approx": false,
+   "coordSource": "osm"
   },
   "ziedo-link-as": {
    "name": "Žiedo",
    "station": "ziedo",
    "towards": "į autobusų stotį",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097841/ziedo-link-as_699.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097841/ziedo-link-as_699.jpg",
+   "lat": 55.245884,
+   "lon": 24.74256,
+   "approx": true,
+   "coordSource": "approx"
   },
   "ziedo-link-narbuto": {
    "name": "Žiedo",
    "station": "ziedo",
    "towards": "į Narbuto",
-   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097833/ziedo-link-narbuto_8703.jpg"
+   "sign": "https://www.ukmergesautobusai.lt/uploads/ECB/content_1793097833/ziedo-link-narbuto_8703.jpg",
+   "lat": 55.245884,
+   "lon": 24.74256,
+   "approx": true,
+   "coordSource": "approx"
   }
  },
  "trips": [
@@ -2403,6 +2724,9 @@
      "kestucio-a-link-pienines",
      "04:25"
     ]
+   ],
+   "uncertain": [
+    "Pirmo reiso laikai nesutampa: Kęstučio a. 4:25, bet Kauno 4:52 (lentelėse)."
    ]
   },
   {
@@ -2467,6 +2791,9 @@
      "pramones",
      "04:56"
     ]
+   ],
+   "uncertain": [
+    "Pirmo reiso laikai nesutampa: Kęstučio a. 4:25, bet Kauno 4:52 (lentelėse)."
    ]
   },
   {
@@ -4423,6 +4750,9 @@
      "umega-link-pienines",
      "15:06"
     ]
+   ],
+   "uncertain": [
+    "AS lentelėje šis reisas – 14:45, Vytauto g. ir kitose – 14:50."
    ]
   },
   {
@@ -5459,6 +5789,9 @@
      "statikai-pries-biofabrika-link-deltuvos",
      "07:44"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5515,6 +5848,9 @@
      "pusu",
      "08:17"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5567,6 +5903,9 @@
      "statikai-pries-biofabrika-link-deltuvos",
      "08:39"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5623,6 +5962,9 @@
      "pusu",
      "09:13"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5647,6 +5989,9 @@
      "smeliu-link-centro",
      "09:29"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5675,6 +6020,9 @@
      "baznycios-link-pasiles",
      "09:57"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5739,6 +6087,9 @@
      "statikai-pries-biofabrika-link-deltuvos",
      "10:27"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5759,6 +6110,9 @@
      "ziedo-link-as",
      "10:36"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5783,6 +6137,9 @@
      "smeliu-link-centro",
      "12:09"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5819,6 +6176,9 @@
      "statikai-pries-biofabrika-link-deltuvos",
      "12:23"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5875,6 +6235,9 @@
      "pusu",
      "12:57"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5899,6 +6262,9 @@
      "smeliu-link-centro",
      "13:19"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5935,6 +6301,9 @@
      "statikai-pries-biofabrika-link-deltuvos",
      "13:33"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -5955,6 +6324,9 @@
      "ziedo-link-as",
      "13:37"
     ]
+   ],
+   "uncertain": [
+    "Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas."
    ]
   },
   {
@@ -6046,7 +6418,10 @@
    ],
    "corrected": {
     "anyksciu": "05:18"
-   }
+   },
+   "uncertain": [
+    "Anykščių: atspausdinta 05:18, pataisyta į 04:54 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "2-wo-002",
@@ -6062,6 +6437,9 @@
      "lytagros-centras-link-as",
      "05:03"
     ]
+   ],
+   "uncertain": [
+    "Neaišku, kuriam autobusui priklauso šie paryčių laikai."
    ]
   },
   {
@@ -6305,7 +6683,10 @@
    ],
    "corrected": {
     "kudirkos-link-as": "05:37"
-   }
+   },
+   "uncertain": [
+    "Kudirkos: atspausdinta 05:37, pataisyta į 06:37 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "2-wo-006",
@@ -6941,6 +7322,9 @@
      "statikai-pries-biofabrika-link-deltuvos",
      "09:16"
     ]
+   ],
+   "uncertain": [
+    "Tarp Pušų 8:54 ir Pivonijos 9:01 – 7 min. vietoj įprastų 1–2."
    ]
   },
   {
@@ -8936,7 +9320,10 @@
    ],
    "corrected": {
     "kokliu": "20:18"
-   }
+   },
+   "uncertain": [
+    "Koklių: atspausdinta 20:18, pataisyta į 20:08 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "2-wo-042",
@@ -9024,7 +9411,11 @@
    "corrected": {
     "anyksciu": "21:13",
     "zaliasis-vienkiemis": "20:05"
-   }
+   },
+   "uncertain": [
+    "Anykščių: atspausdinta 21:13, pataisyta į 20:53 pagal gretimas stoteles.",
+    "Žaliasis vienkiemis: atspausdinta 20:05, pataisyta į 21:05 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "2-wo-043",
@@ -9079,7 +9470,10 @@
    ],
    "corrected": {
     "kestucio-a-link-pienines": "21:48"
-   }
+   },
+   "uncertain": [
+    "Kęstučio a.: atspausdinta 21:48, pataisyta į 21:53 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "3-sa-001",
@@ -10754,7 +11148,11 @@
    ],
    "corrected": {
     "pivonijos": "05:07"
-   }
+   },
+   "uncertain": [
+    "Lentelėse 4:45 išvykimas pažymėtas ir kaip Nr. 4, ir kaip Nr. 5.",
+    "Pivonijos: atspausdinta 05:07, pataisyta į 05:09 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "4-wo-002",
@@ -11018,7 +11416,11 @@
    "corrected": {
     "baznycios": "06:27",
     "pasiles-kryzkele": "06:28"
-   }
+   },
+   "uncertain": [
+    "Bažnyčios: atspausdinta 06:27, pataisyta į 06:21 pagal gretimas stoteles.",
+    "Pašilės kryžkelė: atspausdinta 06:28, pataisyta į 06:22 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "4-wo-006",
@@ -11756,6 +12158,9 @@
      "baznycios-link-pasiles",
      "10:25"
     ]
+   ],
+   "uncertain": [
+    "Tarp Dukstynos kaimo 9:53 ir Žaliojo vnk. 10:05 – 12 min. vietoj įprastų 7."
    ]
   },
   {
@@ -13174,7 +13579,10 @@
    ],
    "corrected": {
     "kreksliai-link-centro": "17:08"
-   }
+   },
+   "uncertain": [
+    "Krekšliai: atspausdinta 17:08, pataisyta į 17:03 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "4-wo-038",
@@ -13190,6 +13598,9 @@
      "pasile-is-varines",
      "17:29"
     ]
+   ],
+   "uncertain": [
+    "Iš Varinės 17:29 – Pašilėje toliau išvyksta tik 17:40."
    ]
   },
   {
@@ -13578,6 +13989,9 @@
      "baznycios-link-pasiles",
      "05:09"
     ]
+   ],
+   "uncertain": [
+    "Lentelėse 4:45 išvykimas pažymėtas ir kaip Nr. 4, ir kaip Nr. 5."
    ]
   },
   {
@@ -14047,7 +14461,10 @@
    ],
    "corrected": {
     "pivonijos-link-centro": "24:08"
-   }
+   },
+   "uncertain": [
+    "Pivonijos: atspausdinta 24:08, pataisyta į 24:11 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "6-we-001",
@@ -15738,7 +16155,10 @@
    ],
    "corrected": {
     "saltalankiu-link-centro": "08:12"
-   }
+   },
+   "uncertain": [
+    "Šaltalankių: atspausdinta 08:12, pataisyta į 08:02 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "6-wo-007",
@@ -16301,7 +16721,10 @@
    ],
    "corrected": {
     "saltalankiu-link-centro": "15:17"
-   }
+   },
+   "uncertain": [
+    "Šaltalankių: atspausdinta 15:17, pataisyta į 15:27 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "6-wo-021",
@@ -16384,7 +16807,10 @@
    ],
    "corrected": {
     "saltalankiu-link-centro": "16:32"
-   }
+   },
+   "uncertain": [
+    "Šaltalankių: atspausdinta 16:32, pataisyta į 16:02 pagal gretimas stoteles."
+   ]
   },
   {
    "id": "6-wo-023",

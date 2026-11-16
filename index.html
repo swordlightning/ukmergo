@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="lt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>UkmerGO – Ukmergės kelionių planuoklis</title>
+<meta name="description" content="Greičiausias kelias po Ukmergę pėsčiomis ir miesto autobusais.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+  <aside id="panel">
+    <header>
+      <h1>Ukmer<span>GO</span></h1>
+      <p class="sub">Greičiausias kelias po Ukmergę pėsčiomis ir autobusu</p>
+    </header>
+
+    <form id="planForm" autocomplete="off">
+      <div class="field">
+        <label for="fromInput">Iš kur</label>
+        <div class="inputRow">
+          <input id="fromInput" type="text" placeholder="Adresas, vieta ar stotelė" aria-autocomplete="list" aria-controls="fromList">
+          <button type="button" id="locBtn" class="iconBtn" title="Mano vieta" aria-label="Naudoti mano vietą">◎</button>
+        </div>
+        <ul id="fromList" class="suggest" role="listbox" hidden></ul>
+      </div>
+      <button type="button" id="swapBtn" class="swap" title="Sukeisti" aria-label="Sukeisti iš kur ir į kur">⇅</button>
+      <div class="field">
+        <label for="toInput">Į kur</label>
+        <div class="inputRow">
+          <input id="toInput" type="text" placeholder="Adresas, vieta ar stotelė" aria-autocomplete="list" aria-controls="toList">
+        </div>
+        <ul id="toList" class="suggest" role="listbox" hidden></ul>
+      </div>
+      <div class="field whenRow">
+        <label for="whenSel">Kada</label>
+        <select id="whenSel">
+          <option value="now">Išvykti dabar</option>
+          <option value="at">Išvykti nurodytu laiku</option>
+        </select>
+        <input id="whenInput" type="datetime-local" hidden>
+      </div>
+      <button type="submit" id="goBtn" class="primary">Rasti kelią</button>
+      <p class="hint">Taškus galite pasirinkti ir paspaudę žemėlapį.</p>
+    </form>
+
+    <section id="results" aria-live="polite"></section>
+
+    <footer>
+      <p><b class="q">(?)</b> – duomenys gali būti netikslūs: vežėjo tvarkaraščiuose rasta neaiškumų arba stotelės vieta apytikslė.</p>
+      <p>Laikai pagal stotelių tvarkaraščius, galiojančius nuo 2026-10-19
+        (<a href="https://www.ukmergesautobusai.lt/miesto-marsrutai/" target="_blank" rel="noopener">ukmergesautobusai.lt</a>).
+        Autobusai gali vėluoti. Ėjimo laikas apskaičiuotas apytiksliai.</p>
+      <p class="small">Žemėlapis © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> bendraautoriai.</p>
+    </footer>
+  </aside>
+  <main id="map" aria-label="Žemėlapis"></main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="js/router.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

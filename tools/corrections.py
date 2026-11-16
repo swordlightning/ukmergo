@@ -55,3 +55,19 @@ FORCED_LINKS = {
 DROP_MARK = {
     ('kokliu', '2', 'workday', m('20:08')),  # "iki Deltuvos": no evening trip goes to Deltuva
 }
+
+# Printed departures whose trip is doubtful (data/ISSUES.md, section 2). Trips that
+# contain one of them are marked "uncertain" and shown with (?) in the app.
+UNCERTAIN = {
+    ('as', '1', 'workday', m('4:15')): 'Pirmo reiso laikai nesutampa: Kęstučio a. 4:25, bet Kauno 4:52 (lentelėse).',
+    ('kauno', '1', 'workday', m('4:52')): 'Pirmo reiso laikai nesutampa: Kęstučio a. 4:25, bet Kauno 4:52 (lentelėse).',
+    ('statikai-uz-biofabriko-link-as', '2', 'workday', m('5:02')): 'Neaišku, kuriam autobusui priklauso šie paryčių laikai.',
+    ('dukstynos-kaimas-link-dukstynos', '4', 'workday', m('9:53')): 'Tarp Dukstynos kaimo 9:53 ir Žaliojo vnk. 10:05 – 12 min. vietoj įprastų 7.',
+    ('pusu-link-centro', '2', 'workday', m('8:54')): 'Tarp Pušų 8:54 ir Pivonijos 9:01 – 7 min. vietoj įprastų 1–2.',
+    ('varine', '4', 'workday', m('17:29')): 'Iš Varinės 17:29 – Pašilėje toliau išvyksta tik 17:40.',
+    ('as-vytauto-g-link-dukstynos', '4', 'workday', m('4:45')): 'Lentelėse 4:45 išvykimas pažymėtas ir kaip Nr. 4, ir kaip Nr. 5.',
+    ('as-vytauto-g-link-dukstynos', '5', 'workday', m('4:45')): 'Lentelėse 4:45 išvykimas pažymėtas ir kaip Nr. 4, ir kaip Nr. 5.',
+    ('dukstyna', '1', 'workday', m('14:45')): 'AS lentelėje šis reisas – 14:45, Vytauto g. ir kitose – 14:50.',
+}
+# All weekend trips of route 2: the route on weekends was worked out from times only.
+UNCERTAIN_PATTERN_DAYS = {('2', 'weekend'): 'Savaitgalio 2 maršruto kelias nustatytas tik iš laikų – nepatvirtintas.'}

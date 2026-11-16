@@ -1,0 +1,483 @@
+{
+ "_about": "Coordinates of every stop sign. source: gtfs = official GTFS (visimarsrutai.lt, stop_id given); osm = OpenStreetMap bus_stop node; approx = street / place position, shown with (?) in the app until checked on site.",
+ "anyksciu": {
+  "lat": 55.256894,
+  "lon": 24.783307,
+  "source": "gtfs",
+  "ref": "33_V21463"
+ },
+ "antakalnio-link-centro": {
+  "lat": 55.24444,
+  "lon": 24.77252,
+  "source": "approx",
+  "ref": "Antakalnio g. (OSM)"
+ },
+ "antakalnio-link-zaliojo-vnk": {
+  "lat": 55.24452,
+  "lon": 24.7729,
+  "source": "approx",
+  "ref": "Antakalnio g. (OSM)"
+ },
+ "as": {
+  "lat": 55.259569,
+  "lon": 24.790478,
+  "source": "gtfs",
+  "ref": "33_V21369"
+ },
+ "as-vytauto-g-link-centro": {
+  "lat": 55.259262,
+  "lon": 24.791787,
+  "source": "approx",
+  "ref": "33_V19468 (Ukmergės autobusų stotis) – which side of Vytauto g. is not known"
+ },
+ "as-vytauto-g-link-dukstynos": {
+  "lat": 55.259262,
+  "lon": 24.791787,
+  "source": "approx",
+  "ref": "33_V19468 (Ukmergės autobusų stotis) – which side of Vytauto g. is not known"
+ },
+ "autoservisas": {
+  "lat": 55.252711,
+  "lon": 24.77302,
+  "source": "gtfs",
+  "ref": "33_V4138"
+ },
+ "basanaviciaus": {
+  "lat": 55.251993,
+  "lon": 24.77119,
+  "source": "gtfs",
+  "ref": "33_V3576"
+ },
+ "baznycios": {
+  "lat": 55.214052,
+  "lon": 24.787032,
+  "source": "osm",
+  "ref": "node/3805547882 (Bažnyčios, one side of the road)"
+ },
+ "baznycios-link-pasiles": {
+  "lat": 55.214052,
+  "lon": 24.787032,
+  "source": "osm",
+  "ref": "node/3805547882 (Bažnyčios, one side of the road)"
+ },
+ "biofabrikas-link-centro": {
+  "lat": 55.244009,
+  "lon": 24.722545,
+  "source": "gtfs",
+  "ref": "33_V21889"
+ },
+ "biofabrikas-link-deltuvos": {
+  "lat": 55.244009,
+  "lon": 24.722545,
+  "source": "gtfs",
+  "ref": "33_V21889"
+ },
+ "boruvka-link-centro": {
+  "lat": 55.240387,
+  "lon": 24.790864,
+  "source": "gtfs",
+  "ref": "33_V21616"
+ },
+ "boruvka-link-zaliojo-vnk": {
+  "lat": 55.240387,
+  "lon": 24.790864,
+  "source": "approx",
+  "ref": "33_V21616 (opposite side)"
+ },
+ "deltuva": {
+  "lat": 55.240349,
+  "lon": 24.684717,
+  "source": "gtfs",
+  "ref": "33_V12439"
+ },
+ "deltuvos-kapines-link-centro": {
+  "lat": 55.241014,
+  "lon": 24.683434,
+  "source": "approx",
+  "ref": "Deltuvos kapinės cemetery (OSM)"
+ },
+ "deltuvos-kapines-link-deltuvos": {
+  "lat": 55.241014,
+  "lon": 24.683434,
+  "source": "approx",
+  "ref": "Deltuvos kapinės cemetery (OSM)"
+ },
+ "dukstyna": {
+  "lat": 55.273943,
+  "lon": 24.815549,
+  "source": "gtfs",
+  "ref": "33_V4904"
+ },
+ "dukstynos-kaimas-link-dukstynos": {
+  "lat": 55.267486,
+  "lon": 24.806039,
+  "source": "gtfs",
+  "ref": "33_V5723"
+ },
+ "dukstyvos-kaimas-link-centro": {
+  "lat": 55.268,
+  "lon": 24.806604,
+  "source": "gtfs",
+  "ref": "33_V10725"
+ },
+ "gamyklu": {
+  "lat": 55.234882,
+  "lon": 24.762915,
+  "source": "approx",
+  "ref": "not found – shown at Gėlių"
+ },
+ "geliu-link-gamyklu": {
+  "lat": 55.234882,
+  "lon": 24.762915,
+  "source": "approx",
+  "ref": "33_V41304 (opposite side)"
+ },
+ "geliu-link-pivonijos": {
+  "lat": 55.234882,
+  "lon": 24.762915,
+  "source": "gtfs",
+  "ref": "33_V41304"
+ },
+ "gelzbetonis-dariaus-ir-gireno": {
+  "lat": 55.241958,
+  "lon": 24.785517,
+  "source": "approx",
+  "ref": "near 33_V21614 – exact place on Dariaus ir Girėno g. not known"
+ },
+ "gelzbetonis-link-centro": {
+  "lat": 55.241958,
+  "lon": 24.785517,
+  "source": "approx",
+  "ref": "33_V21614 (opposite side)"
+ },
+ "gelzbetonis-link-zaliojo-vnk": {
+  "lat": 55.241958,
+  "lon": 24.785517,
+  "source": "gtfs",
+  "ref": "33_V21614"
+ },
+ "kauno": {
+  "lat": 55.246286,
+  "lon": 24.756897,
+  "source": "gtfs",
+  "ref": "33_V3871"
+ },
+ "kauno-link-centro": {
+  "lat": 55.2465,
+  "lon": 24.757536,
+  "source": "gtfs",
+  "ref": "33_V3599"
+ },
+ "kestucio-a-link-as": {
+  "lat": 55.249977,
+  "lon": 24.76378,
+  "source": "gtfs",
+  "ref": "33_V3575"
+ },
+ "kestucio-a-link-pienines": {
+  "lat": 55.250134,
+  "lon": 24.763766,
+  "source": "gtfs",
+  "ref": "33_V21469"
+ },
+ "kokliu": {
+  "lat": 55.233965,
+  "lon": 24.782047,
+  "source": "approx",
+  "ref": "Koklių Fabriko g. (OSM)"
+ },
+ "kreksliai-link-centro": {
+  "lat": 55.246114,
+  "lon": 24.795916,
+  "source": "gtfs",
+  "ref": "33_V21619 (Krekšliai apsisukimas)"
+ },
+ "kreksliai-link-zaliojo-vnk": {
+  "lat": 55.246114,
+  "lon": 24.795916,
+  "source": "approx",
+  "ref": "33_V21619 (opposite side)"
+ },
+ "kudirkos-link-as": {
+  "lat": 55.254607,
+  "lon": 24.777705,
+  "source": "gtfs",
+  "ref": "33_V3587"
+ },
+ "kudirkos-link-centro": {
+  "lat": 55.255216,
+  "lon": 24.778968,
+  "source": "gtfs",
+  "ref": "33_V21554"
+ },
+ "ligonine-link-as": {
+  "lat": 55.258021,
+  "lon": 24.785882,
+  "source": "gtfs",
+  "ref": "33_V3865"
+ },
+ "ligonine-link-centro": {
+  "lat": 55.258648,
+  "lon": 24.78736,
+  "source": "gtfs",
+  "ref": "33_V3605"
+ },
+ "linu-link-gamyklu": {
+  "lat": 55.238739,
+  "lon": 24.776114,
+  "source": "approx",
+  "ref": "33_V24176 (opposite side)"
+ },
+ "linu-link-pivonijos": {
+  "lat": 55.238739,
+  "lon": 24.776114,
+  "source": "gtfs",
+  "ref": "33_V24176"
+ },
+ "lytagros-centras-link-as": {
+  "lat": 55.246787,
+  "lon": 24.733121,
+  "source": "approx",
+  "ref": "Lytagra, Deltuvos g. 39E (OSM)"
+ },
+ "lytagros-centras-link-biofabriko": {
+  "lat": 55.246787,
+  "lon": 24.733121,
+  "source": "approx",
+  "ref": "Lytagra, Deltuvos g. 39E (OSM)"
+ },
+ "misku": {
+  "lat": 55.228941,
+  "lon": 24.78394,
+  "source": "gtfs",
+  "ref": "33_V21598 (Miškų urėdija)"
+ },
+ "misku-link-pasiles": {
+  "lat": 55.228941,
+  "lon": 24.78394,
+  "source": "approx",
+  "ref": "33_V21598 (opposite side)"
+ },
+ "muziejus": {
+  "lat": 55.250293,
+  "lon": 24.766179,
+  "source": "gtfs",
+  "ref": "33_V21592"
+ },
+ "muziejus-link-as": {
+  "lat": 55.249888,
+  "lon": 24.766281,
+  "source": "gtfs",
+  "ref": "33_V21591"
+ },
+ "narbuto": {
+  "lat": 55.252132,
+  "lon": 24.736901,
+  "source": "approx",
+  "ref": "Narbutas factory, Žiedo g. 14 (OSM)"
+ },
+ "pasile": {
+  "lat": 55.219053,
+  "lon": 24.791003,
+  "source": "gtfs",
+  "ref": "33_V10543"
+ },
+ "pasile-is-varines": {
+  "lat": 55.219399,
+  "lon": 24.790838,
+  "source": "gtfs",
+  "ref": "33_V9486"
+ },
+ "pasiles-kryzkele": {
+  "lat": 55.217971,
+  "lon": 24.790797,
+  "source": "gtfs",
+  "ref": "33_V21588 (Pašilės g.)"
+ },
+ "pasiles-kryzkele-link-pasiles": {
+  "lat": 55.217971,
+  "lon": 24.790797,
+  "source": "approx",
+  "ref": "33_V21588 (opposite side)"
+ },
+ "pienine": {
+  "lat": 55.238084,
+  "lon": 24.730787,
+  "source": "gtfs",
+  "ref": "33_V21688"
+ },
+ "pivonijos": {
+  "lat": 55.239932,
+  "lon": 24.7766,
+  "source": "approx",
+  "ref": "Pivonija, Vilniaus g. 90A (OSM)"
+ },
+ "pivonijos-link-centro": {
+  "lat": 55.239932,
+  "lon": 24.7766,
+  "source": "approx",
+  "ref": "Pivonija, Vilniaus g. 90A (OSM)"
+ },
+ "pramones": {
+  "lat": 55.243043,
+  "lon": 24.747121,
+  "source": "gtfs",
+  "ref": "33_V3898"
+ },
+ "pramones-link-centro": {
+  "lat": 55.243294,
+  "lon": 24.747884,
+  "source": "gtfs",
+  "ref": "33_V3600"
+ },
+ "pusu": {
+  "lat": 55.235436,
+  "lon": 24.780628,
+  "source": "approx",
+  "ref": "Pušų g. (OSM)"
+ },
+ "pusu-link-centro": {
+  "lat": 55.235436,
+  "lon": 24.780628,
+  "source": "approx",
+  "ref": "Pušų g. (OSM)"
+ },
+ "saltalankiu-link-centro": {
+  "lat": 55.246117,
+  "lon": 24.803606,
+  "source": "osm",
+  "ref": "node/3805547908"
+ },
+ "saltalankiu-link-zaliojo-vnk": {
+  "lat": 55.246117,
+  "lon": 24.803606,
+  "source": "approx",
+  "ref": "node/3805547908 (opposite side)"
+ },
+ "senasis-pastas": {
+  "lat": 55.245042,
+  "lon": 24.753162,
+  "source": "gtfs",
+  "ref": "33_V3610"
+ },
+ "senasis-pastas-link-centro": {
+  "lat": 55.24472,
+  "lon": 24.752193,
+  "source": "gtfs",
+  "ref": "33_V3918"
+ },
+ "smeliu": {
+  "lat": 55.243339,
+  "lon": 24.776601,
+  "source": "approx",
+  "ref": "Smėlių g. (OSM)"
+ },
+ "smeliu-link-centro": {
+  "lat": 55.243339,
+  "lon": 24.776601,
+  "source": "approx",
+  "ref": "Smėlių g. (OSM)"
+ },
+ "sodai-link-as": {
+  "lat": 55.242007,
+  "lon": 24.703969,
+  "source": "gtfs",
+  "ref": "33_V8486"
+ },
+ "sodai-link-centro": {
+  "lat": 55.263998,
+  "lon": 24.800208,
+  "source": "gtfs",
+  "ref": "33_V9603"
+ },
+ "sodai-link-deltuvos": {
+  "lat": 55.242204,
+  "lon": 24.705001,
+  "source": "gtfs",
+  "ref": "33_V16321"
+ },
+ "sodai-link-dukstynos": {
+  "lat": 55.264519,
+  "lon": 24.801372,
+  "source": "gtfs",
+  "ref": "33_V6689"
+ },
+ "statikai-link-as": {
+  "lat": 55.24322,
+  "lon": 24.717211,
+  "source": "gtfs",
+  "ref": "33_V12408 (pair west of Biofabrikas; side not checked)"
+ },
+ "statikai-pries-biofabrika-link-deltuvos": {
+  "lat": 55.244252,
+  "lon": 24.727503,
+  "source": "gtfs",
+  "ref": "33_V10352 (pair east of Biofabrikas; side not checked)"
+ },
+ "statikai-uz-biofabriko-link-as": {
+  "lat": 55.244264,
+  "lon": 24.728644,
+  "source": "gtfs",
+  "ref": "33_V13321 (pair east of Biofabrikas; side not checked)"
+ },
+ "statikai-uz-biofabriko-link-deltuvos": {
+  "lat": 55.243276,
+  "lon": 24.716767,
+  "source": "gtfs",
+  "ref": "33_V14315 (pair west of Biofabrikas; side not checked)"
+ },
+ "turgus": {
+  "lat": 55.249893,
+  "lon": 24.758307,
+  "source": "approx",
+  "ref": "33_V21513 – GTFS has two Turgus stops 270 m apart"
+ },
+ "umega-link-as": {
+  "lat": 55.240551,
+  "lon": 24.73976,
+  "source": "gtfs",
+  "ref": "33_V21479"
+ },
+ "umega-link-pienines": {
+  "lat": 55.240126,
+  "lon": 24.737979,
+  "source": "gtfs",
+  "ref": "33_V21811"
+ },
+ "varine": {
+  "lat": 55.2195,
+  "lon": 24.7905,
+  "source": "approx",
+  "ref": "not found – Varinė departures are printed with the same time as Pašilė (iš Varinės), shown there"
+ },
+ "vysniu-9link-zaliojo-vnk": {
+  "lat": 55.242821,
+  "lon": 24.793415,
+  "source": "approx",
+  "ref": "Vyšnių g. (OSM)"
+ },
+ "vysniu-link-centro": {
+  "lat": 55.242821,
+  "lon": 24.793415,
+  "source": "approx",
+  "ref": "Vyšnių g. (OSM)"
+ },
+ "zaliasis-vienkiemis": {
+  "lat": 55.245544,
+  "lon": 24.811695,
+  "source": "osm",
+  "ref": "node/3805547910"
+ },
+ "ziedo-link-as": {
+  "lat": 55.245884,
+  "lon": 24.74256,
+  "source": "approx",
+  "ref": "Žiedo g. (OSM)"
+ },
+ "ziedo-link-narbuto": {
+  "lat": 55.245884,
+  "lon": 24.74256,
+  "source": "approx",
+  "ref": "Žiedo g. (OSM)"
+ }
+}

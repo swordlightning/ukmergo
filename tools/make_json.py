@@ -6,7 +6,7 @@ import os, sys, json, re, math, datetime
 from collections import Counter, defaultdict
 sys.path.insert(0, os.path.dirname(__file__))
 from build_trips import build
-from corrections import CORRECTIONS, FORCED_LINKS, DROP_MARK
+from corrections import CORRECTIONS, FORCED_LINKS, DROP_MARK, UNCERTAIN, UNCERTAIN_PATTERN_DAYS
 
 ROOT = os.path.join(os.path.dirname(__file__), '..')
 SIGN_BASE = 'https://www.ukmergesautobusai.lt/miesto-marsrutu-failai/'
@@ -84,26 +84,19 @@ def main():
         stops[f] = {'name': name, 'station': station_id(f),
                     'towards': DIRECTION_WORDS.get(m.group(1)) if m else None,
                     'sign': sign_urls.get(f, SIGN_BASE)}
-    # coordinates: only exact name matches against the official GTFS export, station level
-    alias = {'Autobusų stotis': ['Autobusų stotis', 'Ukmergės autobusų stotis'], 'Senasis paštas': ['Senas paštas'],
-             'Anykščių': ['Anykščių g.'], 'Pieninė': ['Ukmergės pieninė'], 'Linų': ['Linų g.'],
-             'Kęstučio a.': ['Kęstučio a.', 'Kęstučio aikštė']}
+    coords = json.load(open(os.path.join(ROOT, 'data', 'stop_coords.json'), encoding='utf-8'))
+    for f, s in stops.items():
+        c = coords[f]
+        s.update({'lat': c['lat'], 'lon': c['lon'], 'approx': c['source'] == 'approx', 'coordSource': c['source']})
     for f, s in stops.items():
         st = stations.setdefault(s['station'], {'name': re.sub(r' \(.*\)$', '', s['name']), 'stops': []})
         st['stops'].append(f)
     for sid, st in stations.items():
-        names = alias.get(st['name'], [st['name']])
-        pts = [(g['lat'], g['lon']) for g in gtfs if g['name'] in names]
-        spread = max((math.dist((a[0] * 111320, a[1] * 63600), (b[0] * 111320, b[1] * 63600))
-                      for a in pts for b in pts), default=0)
-        if pts and spread <= 150:
-            st['lat'] = round(sum(p[0] for p in pts) / len(pts), 6)
-            st['lon'] = round(sum(p[1] for p in pts) / len(pts), 6)
-            st['coordSource'] = 'GTFS (visimarsrutai.lt) name match – verify on the map'
-        else:
-            st['lat'] = st['lon'] = None
-            st['coordSource'] = 'missing' if not pts else f'ambiguous ({len(pts)} GTFS points {spread:.0f} m apart)'
         st['stops'].sort()
+        ss = [stops[f] for f in st['stops']]
+        st['lat'] = round(sum(x['lat'] for x in ss) / len(ss), 6)
+        st['lon'] = round(sum(x['lon'] for x in ss) / len(ss), 6)
+        st['approx'] = any(x['approx'] for x in ss)
 
     out_trips = []
     counter = Counter()
@@ -132,6 +125,18 @@ def main():
         fixed = [k for k, d in t['stops'] if 'printed' in d]
         if fixed:
             trip['corrected'] = {k: hhmm(d['printed']) for k, d in t['stops'] if 'printed' in d}
+        why = []
+        for k, d in t['stops']:
+            r = UNCERTAIN.get((k, t['route'], t['day'], d['min']))
+            if r and r not in why:
+                why.append(r)
+            if 'printed' in d:
+                why.append(f"{stops[k]['name']}: atspausdinta {hhmm(d['printed'])}, pataisyta į {hhmm(d['min'])} pagal gretimas stoteles.")
+        r = UNCERTAIN_PATTERN_DAYS.get((t['route'], t['day']))
+        if r:
+            why.append(r)
+        if why:
+            trip['uncertain'] = why
         out_trips.append(trip)
 
     data = {
@@ -142,6 +147,7 @@ def main():
             'generated': datetime.date.today().isoformat(),
             'times': 'HH:MM local time (Europe/Vilnius); 24:xx = after midnight of the same service day',
             'tripStops': 'Only times printed on stop signs. The final stop (terminus arrival) is often not printed.',
+            'uncertain': 'Trips with "uncertain" (list of reasons, Lithuanian) are shown with (?) in the app. Stops with approx=true have an approximate position.',
             'corrected': 'Trips with "corrected" contain a time fixed from an obvious misprint: {stop: printed time}. See data/ISSUES.md.',
         },
         'calendar': {
@@ -159,7 +165,8 @@ def main():
     with open(os.path.join(ROOT, 'data', 'timetable.json'), 'w', encoding='utf-8') as fh:
         json.dump(data, fh, ensure_ascii=False, indent=1)
     print(f"{len(out_trips)} trips, {len(stops)} stops, {len(stations)} stations, "
-          f"{sum(1 for s in stations.values() if s['lat'])} stations with coordinates, {len(orphans)} unplaced departures")
+          f"{sum(1 for s in stops.values() if s['approx'])} stops with approximate coordinates, "
+          f"{sum(1 for t in out_trips if 'uncertain' in t)} uncertain trips, {len(orphans)} unplaced departures")
     return data, orphans
 
 

@@ -59,9 +59,11 @@ Iš viso 13 atspausdintų laikų (iš 3399) nepavyko priskirti jokiam reisui –
 
 ## 3. Ko trūksta programėlei
 
-* **Stotelių koordinatės.** Tik 19 iš 43 stotelių rasta oficialiame GTFS faile (pagal pavadinimą, todėl
-  reikia patikrinti žemėlapyje). Kitoms 24 (Pušų, Pivonijos, Smėlių, Žaliasis vienkiemis, Pašilė, Sodai...)
-  koordinačių nėra. Abi gatvės pusės (pvz. „Kauno“ į centrą ir į Pieninę) kol kas turi vieną bendrą tašką.
+* **Stotelių koordinatės** (`data/stop_coords.json`): 48 iš 80 stotelių paimtos iš oficialaus GTFS
+  (visimarsrutai.lt) arba OpenStreetMap stotelių taškų. **32 apytikslės** (gatvės ar vietovės taškas) –
+  programėlėje jos rodomos su (?) ir geltonu tašku žemėlapyje. Ypač netikslios: Gamyklų (rodoma prie Gėlių),
+  Varinė (rodoma prie Pašilės), Pivonijos, Pušų, Smėlių, Vyšnių, Antakalnio, Narbuto, Žiedo, Koklių,
+  Lytagros centras. Programėlėje (?) pažymėti ir visi reisai iš 2 skyriaus bei reisai su pataisytais laikais.
 * **Šventinės dienos** `calendar.holidays` surašytos iš atminties (2026-12 – 2027-12) – patikrinti.
 * Galutinės stotelės atvykimo laikas lentelėse nespausdinamas (pvz. atvykimas į Pieninę), todėl reisas
   JSON'e baigiasi paskutine stotele, kurioje laikas atspausdintas.
