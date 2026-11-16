@@ -1,0 +1,6 @@
+stop: Turgus
+source: turgus.jpg
+route 2 | Pašilė
+  weekend: 9:40
+route 3 | Žaliasis vienkiemis
+  saturday: 8:50 10:00 11:20

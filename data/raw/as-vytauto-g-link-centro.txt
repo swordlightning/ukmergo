@@ -1,0 +1,7 @@
+stop: Autobusų stotis (Vytauto g.)
+source: as-vytauto-g-link-centro.jpg
+route 1 | Pieninė
+  workday: 10:35 11:05 14:50 15:15 18:30
+  weekend: 10:35 14:45 18:30
+route 6 | Žaliasis vnk.
+  weekend: 12:00 13:10

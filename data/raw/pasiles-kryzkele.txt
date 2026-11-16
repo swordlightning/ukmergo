@@ -1,0 +1,14 @@
+stop: Pašilės kryžkelė
+source: pasiles-kryzkele.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:42* 21:42
+  note *: važiuoja iki Deltuvos
+route 2 | Biofabrikas
+  weekend: 10:07
+route 4 | Autobusų stotis
+  workday: 5:28 6:28 6:58 7:28 7:53 8:28 9:33 10:13* 10:38 11:18* 11:43 12:20* 12:51 13:48 14:48 15:43 15:58 16:43 17:43 18:28 19:28
+  weekend: 7:03 8:03 8:58 10:38 11:33 12:38 13:38 14:38 15:38 16:38 17:38 19:38
+  note *: važiuoja iki Dukstynos
+route 5 | Narbuto
+  workday: 5:14 13:46 24:08*
+  note *: važiuoja iki Žiedo g.

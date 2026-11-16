@@ -1,0 +1,4 @@
+stop: Sodai
+source: sodai-link-as.jpg
+route 2 | Autobusų stotis - Koklių f.
+  workday: 6:18 6:58 11:33 13:08 14:03 14:28 16:18 18:38

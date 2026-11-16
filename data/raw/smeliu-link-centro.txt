@@ -1,0 +1,14 @@
+stop: Smėlių
+source: smeliu-link-centro.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:47* 6:27* 7:07 7:47 8:17 9:02 10:17 11:02* 11:27 12:22 12:37* 13:32* 13:57* 14:52 15:17* 17:07 18:17 20:12 21:47**
+  weekend: 7:34 8:29 9:29 10:13 12:09 13:19
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 4 | Autobusų stotis
+  workday: 5:34 6:28 7:04 7:34 7:59 8:34 9:39 10:19* 10:44 11:24* 11:49 12:26* 12:57 13:54 14:54 15:49 16:04 16:49 17:49 18:34 19:34
+  weekend: 7:09 8:09 9:04 10:44 11:39 12:44 13:44 14:44 15:44 16:44 17:44 19:44
+  note *: važiuoja iki Dukstynos
+route 5 | Narbuto
+  workday: 5:31 14:03 24:12*
+  note *: važiuoja iki Žiedo g.

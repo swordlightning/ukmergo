@@ -1,0 +1,13 @@
+stop: Pramonės
+source: pramones-link-centro.jpg
+route 1 | Autobusų stotis (Dukstyna)
+  workday: 5:20 5:50 5:55 6:05 6:20 6:50 7:20 7:50 8:15* 8:45* 10:05* 10:35* 11:05 11:35 12:05* 12:35* 13:20 13:50 14:15* 14:45* 14:50 15:20 15:50* 16:15* 16:50 17:50 18:35 19:05 19:35 20:05 20:35
+  weekend: 6:20 7:20 8:20* 10:05* 10:39 11:05 12:05* 13:20 13:39 14:15* 14:39 15:20 16:15 17:50* 19:05 20:05
+  note *: važiuoja iki Dukstynos
+route 2 | Autobusų stotis - Koklių f. (Pašilė)
+  workday: 4:42* 6:26 7:06 7:36 8:16 8:46** 9:31** 10:46 11:41 11:56 12:51 13:16 14:11 14:36 15:26** 16:26 17:36 18:46** 20:41*
+  weekend: 8:01 8:56 12:41
+  note **: važiuoja iki autobusų stoties
+  note *: važiuoja iki Pašilės
+route 5 | Pašilė
+  workday: 14:48 23:18

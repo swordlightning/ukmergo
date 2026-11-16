@@ -1,0 +1,22 @@
+stop: Anykščių
+source: anyksciu.jpg
+route 1 | Autobusų stotis (Dukstyna)
+  workday: 5:32 6:02 6:07 6:17 6:32 7:02 7:32 8:02 8:27* 8:57* 10:17* 10:47* 11:17 11:47 12:17* 12:47* 13:32 14:02 14:27* 14:57* 15:02 15:32 16:02* 16:27* 17:02 18:02 18:47 19:17 19:47 20:17 20:47
+  weekend: 6:32 7:32 8:32* 10:17* 10:51 11:17 12:17* 13:32 13:51 14:27* 15:32 16:27 18:02* 19:17 20:17
+  note *: važiuoja iki Dukstynos
+route 2 | Žaliasis vnk. - Koklių f.
+  workday: 5:18 6:38 7:18 7:48 8:28 8:58* 9:43* 10:58 11:53 12:08 13:03 13:28 14:23 14:48 15:38* 16:38 17:48 18:58* 21:13
+  note *: važiuoja iki Autobusų stoties
+route 4 | Autobusų stotis - Pašilė
+  workday: 5:42 6:36 7:12 7:42 8:07* 8:42* 9:47 10:27** 10:52 11:32** 11:57 12:34** 13:05 14:02 15:02 15:57 16:12* 16:57* 17:57 18:42 19:42*
+  weekend: 7:19 8:19 9:14 10:54 11:49 12:54 13:54 14:54 15:54 16:54 17:54 19:54
+  note *: važiuoja iki Autobusų stoties
+  note **: užsuka į Dukstyną
+route 5 | Pašilė (Linų g.)
+  workday: 4:43 14:59 23:29
+route 6 | Autobusų stotis - Žaliasis vnk.
+  workday: 6:49 7:39 8:18 9:39 10:19 11:04 11:44 12:39 13:19 15:44 16:17 17:34 18:19 19:04 19:49
+  weekend: 6:38 7:50 8:58 10:02 11:43* 12:13 12:53* 14:03 15:13 16:23 17:33 19:13 20:23
+  note *: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:24 13:54

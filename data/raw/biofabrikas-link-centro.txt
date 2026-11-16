@@ -1,0 +1,7 @@
+stop: Biofabrikas
+source: biofabrikas-link-centro.jpg
+route 2 | Autobusų stotis - Koklių f.(Pašilė)
+  workday: 4:36** 6:20 7:00 7:30 8:10 8:40* 9:25* 10:40 11:35 11:50 12:45 13:10 14:05 14:30 15:20* 16:20 17:30 18:40*
+  weekend: 7:55 8:50 10:35 12:35 13:35
+  note *: važiuoja iki Autobusų stoties
+  note **: važiuoja į Pašilę

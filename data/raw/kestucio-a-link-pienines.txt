@@ -1,0 +1,16 @@
+stop: Kęstučio a.
+source: kestucio-a-link-pienines.jpg
+route 1 | Pieninė
+  workday: 4:25* 5:00 5:25 5:55 6:25 6:55 7:25 7:55 8:25 9:40 10:10 10:45 11:15 11:40 12:10 12:55 13:25 13:55 14:25 15:00 15:25 15:55 16:25* 17:25 18:10 18:40 19:10 19:40 20:10
+  weekend: 5:55 6:55 7:55 9:40 10:45 11:40 12:55 13:55 14:55 15:55 17:25 18:40 19:40
+  note *: važiuoja iki Biofabriko
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:53* 6:33* 7:13 7:53 8:23 9:08 10:23 11:08* 11:33 12:28 12:43* 13:38* 14:03* 14:58 15:23* 17:13 18:23 20:18 21:48**
+  weekend: 7:36 8:31 10:19 12:15 13:25
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 5 | Narbuto
+  workday: 5:34 14:06 24:13*
+  note *: važiuoja iki Žiedo gatvės
+route 7 | Narbuto
+  workday: 5:36 14:05

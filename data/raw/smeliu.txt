@@ -1,0 +1,11 @@
+stop: Smėlių
+source: smeliu.jpg
+route 2 | Koklių
+  weekend: 8:13 9:09 12:53
+route 4 | Pašilė
+  workday: 5:07 6:07 6:37 7:07 7:37 8:07 9:17* 9:55 10:17 10:55 11:17* 12:00 12:26* 13:10 13:30 14:27* 15:27 16:22 17:12 18:07 19:07
+  weekend: 6:44 7:14* 7:44 8:44 10:19 11:19 12:09 13:19 14:19 15:19 16:19 17:19 19:19
+  note *: važiuoja iki Koklių
+  remark: printed footnote says "važiuoja iki Koklių" for all starred times; neighbouring stops say workday * = iki Varinės, weekend = iki Koklių
+route 5 | Pašilė
+  workday: 15:23 23:53

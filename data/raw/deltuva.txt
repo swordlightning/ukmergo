@@ -1,0 +1,4 @@
+stop: Deltuva
+source: deltuva.jpg
+route 2 | Autobusų stotis - Koklių f.
+  workday: 6:15 6:55 11:30 13:05 14:00 14:25 16:15 18:36

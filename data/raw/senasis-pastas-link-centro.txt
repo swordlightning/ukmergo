@@ -1,0 +1,13 @@
+stop: Senasis paštas
+source: senasis-pastas-link-centro.jpg
+route 1 | Autobusų stotis (Dukstyna)
+  workday: 5:22 5:52 5:57 6:07 6:22 6:52 7:22 7:52 8:17* 8:47* 10:07* 10:37* 11:07 11:37 12:07* 12:37* 13:22 13:52 14:17* 14:47* 14:52 15:22 15:52* 16:17* 16:52 17:52 18:37 19:07 19:37 20:07 20:37
+  weekend: 6:22 7:22 8:22* 10:07* 10:41 11:07 12:07* 13:22 13:41 14:17* 15:22 16:17 17:52* 19:07 20:07
+  note *: važiuoja iki Dukstynos
+route 2 | Autobusų stotis - Koklių f. (Pašilė)
+  workday: 4:44* 6:28 7:08 7:38 8:18 8:48** 9:33** 10:48 11:43 11:58 12:53 13:18 14:13 14:38 15:28** 16:28 17:38 18:48** 20:43*
+  weekend: 8:03 8:58 12:43
+  note **: važiuoja iki autobusų stoties
+  note *: važiuoja iki Pašilės
+route 5 | Pašilė
+  workday: 14:50 23:20

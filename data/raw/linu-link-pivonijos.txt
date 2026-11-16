@@ -1,0 +1,6 @@
+stop: Linų
+source: linu-link-pivonijos.jpg
+route 5 | Narbuto
+  workday: 5:29 14:01
+route 5 | Pašilė
+  workday: 15:29 23:59

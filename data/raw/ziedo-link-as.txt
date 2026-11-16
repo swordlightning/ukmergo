@@ -1,0 +1,6 @@
+stop: Žiedo
+source: ziedo-link-as.jpg
+route 2 | Koklių (Autobusų stotis)
+  workday: 4:40 6:24 7:04 7:34 8:14 8:44* 9:29* 10:44 11:39 11:54 12:49 13:14 14:09 14:34 15:24* 16:24 17:34 18:44* 20:39
+  weekend: 7:59 8:54 10:36 12:39 13:37
+  note *: važiuoja iki autobusų stoties

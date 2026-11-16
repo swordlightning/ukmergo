@@ -1,0 +1,6 @@
+stop: Krekšliai
+source: kreksliai-link-zaliojo-vnk.jpg
+route 3 | Žaliasis vienkiemis
+  saturday: 9:05 10:15 11:35
+route 6 | Žaliasis vienkiemis
+  weekend: 6:05 7:17 7:45 8:25 9:35 11:10 12:20 13:30 14:40 15:50 17:00 18:40 19:50

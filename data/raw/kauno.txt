@@ -1,0 +1,16 @@
+stop: Kauno
+source: kauno.jpg
+route 1 | Pieninė
+  workday: 4:52* 5:02 5:27 5:57 6:27 6:57 7:27 7:57 8:27 9:42 10:12 10:47 11:17 11:42 12:12 12:57 13:27 13:57 14:27 15:02 15:27 15:57 16:27 17:27 18:12 18:42 19:12 19:42 20:12
+  weekend: 5:57 6:57 7:57 9:42 10:47 11:42 12:57 13:57 14:57 15:57 17:27 18:42 19:42
+  note *: važiuoja iki Biofabriko
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:55* 6:35* 7:15 7:55 8:25 9:10 10:25 11:10* 11:35 12:30 12:45* 13:40* 14:05* 15:00 15:25* 17:15 18:25 20:20 21:55**
+  weekend: 7:38 8:33 10:21 12:17 13:27
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 5 | Narbuto
+  workday: 5:36 14:08 24:14*
+  note *: važiuoja iki Žiedo g.
+route 7 | Narbuto
+  workday: 5:38 14:07

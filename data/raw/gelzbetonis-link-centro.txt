@@ -1,0 +1,16 @@
+stop: Gelžbetonis
+source: gelzbetonis-link-centro.jpg
+route 3 | Turgus
+  saturday: 8:08 9:33 10:38
+route 4 | Pašilė
+  workday: 5:03 6:03 6:33 7:03 7:33 8:03 9:13* 9:51 10:13 10:51 11:13* 11:56 12:22* 13:06 13:26 14:23* 15:23 16:18 17:08 18:03 19:03
+  note *: važiuoja iki Varinės
+route 5 | Pašilė
+  workday: 15:20* 23:50*
+  note *: užsuka į Linų g.
+route 6 | Autobusų stotis
+  workday: 6:38 7:28 8:08 9:28 10:08 10:53 11:33 12:28 13:08 15:33 16:08 17:23 18:08 18:53 19:38
+  weekend: 6:28 7:40 8:48 9:53 11:33* 12:03 12:43* 13:53 15:03 16:13 17:23 19:03 20:13
+  note *: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:14 13:44

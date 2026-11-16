@@ -1,0 +1,18 @@
+stop: Šaltalankių
+source: saltalankiu-link-centro.jpg
+route 2 | Koklių f.
+  workday: 5:07 6:14 6:54 7:34 8:04 8:44 10:04 10:49 11:14 12:09 12:24 13:19 13:44 14:39 15:04 16:54 18:04 19:59 21:07
+route 3 | Turgus
+  saturday: 8:02 9:27 10:32
+route 4 | Pašilė
+  workday: 4:57 5:57 6:27 6:57 7:27 7:57 9:07* 9:45 10:07 10:45 11:07* 11:50 12:16* 13:00 13:20 14:17* 15:17 16:12 17:02 17:57 18:57
+  note *: važiuoja iki Varinės
+route 5 | Pašilė
+  workday: 4:57 15:14* 23:44*
+  note *: užsuka į Linų g.
+route 6 | Autobusų stotis
+  workday: 6:32 7:22 8:12 9:22 10:02 10:47 11:27 12:22 13:02 15:17 16:32 17:17 18:02 18:47 19:32
+  weekend: 6:22 7:34 8:42 9:47 11:27* 11:57 12:37* 13:47 14:57 16:07 17:17 18:57 20:07
+  note *: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:07 13:37

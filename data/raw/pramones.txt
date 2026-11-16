@@ -1,0 +1,16 @@
+stop: Pramonės
+source: pramones.jpg
+route 1 | Pieninė
+  workday: 4:56* 5:05 5:30 6:00 6:30 7:00 7:30 8:00 8:30 9:45 10:15 10:50 11:20 11:45 12:15 13:00 13:30 14:00 14:30 15:05 15:30 16:00 16:30 17:30 18:15 18:45 19:15 19:45 20:15
+  weekend: 6:00 7:00 8:00 9:45 10:50 11:45 13:00 14:00 15:00 16:00 17:30 18:45 19:45
+  note *: važiuoja iki Biofabriko
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:58* 6:38* 7:18 7:58 8:28 9:13 10:28 11:13* 11:38 12:33 12:48* 13:43* 14:08* 15:03 15:28* 17:18 18:28 20:23 21:58**
+  weekend: 7:41 8:36 10:24 12:20 13:30
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 5 | Narbuto
+  workday: 5:40 14:12 24:16*
+  note *: važiuoja iki Žiedo g.
+route 7 | Narbuto
+  workday: 5:42 14:11

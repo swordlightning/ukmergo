@@ -1,0 +1,14 @@
+stop: Pušų
+source: pusu-link-centro.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:44* 6:24* 7:04 7:44 8:14 8:54 10:14 10:59* 11:24 12:19 12:34* 13:29* 13:54* 14:49 15:14* 17:04 18:14 20:09 21:44**
+  weekend: 7:27 8:26 9:26 10:10 12:06 13:16
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 4 | Autobusų stotis
+  workday: 5:31 6:25 7:01 7:31 7:56 8:31 9:36 10:16* 10:41 11:21* 11:46 12:23* 12:54 13:51 14:51 15:45 16:01 16:46 17:46 18:31 19:31
+  weekend: 7:06 8:06 9:01 10:41 11:36 12:41 13:41 14:41 15:41 16:41 17:41 19:41
+  note *: važiuoja iki Dukstynos
+route 5 | Narbuto
+  workday: 5:18 13:50 24:10*
+  note *: važiuoja iki Žiedo g.

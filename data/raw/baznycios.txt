@@ -1,0 +1,14 @@
+stop: Bažnyčios
+source: baznycios.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:41* 21:41
+  note *: važiuoja iki Deltuvos
+route 2 | Biofabrikas
+  weekend: 10:06
+route 4 | Autobusų stotis
+  workday: 5:27 6:27 6:57 7:27 7:52 8:27 9:32 10:12* 10:37 11:17* 11:42 12:19* 12:50 13:47 14:47 15:42 15:57 16:42 17:42 18:27 19:27
+  weekend: 7:02 8:02 8:57 10:37 11:32 12:37 13:37 14:37 15:37 16:37 17:37 19:37
+  note *: važiuoja iki Dukstynos
+route 5 | Narbuto
+  workday: 5:12 13:44 24:07*
+  note *: važiuoja iki Žiedo g.

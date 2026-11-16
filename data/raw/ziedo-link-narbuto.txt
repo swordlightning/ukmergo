@@ -1,0 +1,10 @@
+stop: Žiedo
+source: ziedo-link-narbuto.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 4:57 5:59* 6:39* 7:19 7:59 8:29 9:14 10:29 11:14* 11:39 12:34 12:49* 13:44* 14:09* 15:04 15:29* 17:19 18:29
+  weekend: 7:42 8:37 10:25 12:21 13:31
+  note *: važiuoja iki Deltuvos
+route 5 | Narbuto
+  workday: 5:41 14:13
+route 7 | Narbuto
+  workday: 5:43 14:12

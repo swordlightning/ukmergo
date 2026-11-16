@@ -1,0 +1,23 @@
+stop: Ligoninė
+source: ligonine-link-as.jpg
+route 1 | Autobusų stotis (Dukstyna)
+  workday: 5:33 6:03 6:09 6:19 6:33 7:03 7:33 8:03 8:28* 8:58* 10:18* 10:48* 11:18 11:48 12:18* 12:48* 13:33 14:03 14:28* 14:58* 15:04 15:33 16:03 16:28 17:03 18:03 18:48 19:18 19:48 20:18 20:48
+  weekend: 6:33 7:33 8:33* 10:18* 10:52 11:18 12:18* 13:33 13:52 14:28* 15:33 16:28 18:03* 19:18 20:18
+  note *: važiuoja iki Dukstynos
+route 2 | Žaliasis vnk. - Koklių f.
+  workday: 4:56 6:40 7:20 7:50 8:30 9:00* 9:45* 11:00 11:55 12:10 13:05 13:30 14:25 14:50 15:40* 16:40 17:50 19:00* 20:55
+  note *: važiuoja iki Autobusų stoties
+route 4 | Autobusų stotis - Pašilė
+  workday: 5:43 6:37 7:13 7:43 8:08* 8:43* 9:48 10:28** 10:53 11:33** 11:58* 12:36* 13:06 14:03 15:03 15:58 16:13* 16:58* 17:58 18:43 19:43*
+  weekend: 7:20 8:20 9:15 10:55 11:50 12:55 13:55 14:55 15:55 16:55 17:55 19:55
+  note *: važiuoja iki Autobusų stoties
+  note **: užsuka į Dukstyną
+  remark: hour 10 cell is printed with overlapping text "28*2853"; read as 10:28** 10:53 (matches neighbouring stops)
+route 5 | Pašilė (Linų g.)
+  workday: 4:44 15:01 23:31
+route 6 | Autobusų stotis
+  workday: 6:50 7:40 8:19 9:40 10:20 11:05 11:45 12:40 13:20 15:45 16:18 17:35 18:20 19:05 19:50
+  weekend: 6:39 7:51 8:59 10:03 11:44* 12:14 12:54* 14:04 15:14 16:24 17:34 19:14 20:24
+  note *: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:25 13:56

@@ -1,0 +1,6 @@
+stop: Lytagros centras
+source: lytagros-centras-link-as.jpg
+route 2 | Autobusų stotis - Koklių f.
+  workday: 5:03 6:23 7:03 7:33 8:13 8:43* 9:28* 10:43 11:38 11:53 12:48 13:13 14:08 14:33 15:23* 16:23 17:33 18:43*
+  weekend: 7:58 8:53 12:38
+  note *: važiuoja iki Autobusų stoties

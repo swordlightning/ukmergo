@@ -1,0 +1,4 @@
+stop: Statikai
+source: statikai-link-as.jpg
+route 2 | Autobusų stotis - Koklių f.
+  workday: 6:19 6:59 11:34 13:09 14:04 14:29 16:19 18:39

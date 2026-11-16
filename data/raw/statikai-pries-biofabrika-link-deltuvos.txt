@@ -1,0 +1,6 @@
+stop: Statikai (prieš Biofabriką)
+source: statikai-pries-biofabrika-link-deltuvos.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 6:01* 6:41* 7:21 8:01 8:31 9:16 10:31 11:16* 11:41 12:36 12:51* 13:46* 14:11* 15:06 15:31* 17:21 18:31
+  weekend: 7:44 8:39 10:27 12:23 13:33
+  note *: važiuoja iki Deltuvos

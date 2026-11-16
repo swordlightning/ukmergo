@@ -1,0 +1,4 @@
+stop: Deltuvos kapinės
+source: deltuvos-kapines-link-centro.jpg
+route 2 | Autobusų stotis - Koklių f.
+  workday: 6:16 6:56 11:31 13:06 14:01 14:26 16:16 18:37

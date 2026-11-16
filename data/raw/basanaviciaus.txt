@@ -1,0 +1,23 @@
+stop: Basanavičiaus
+source: basanaviciaus.jpg
+route 1 | Autobusų stotis (Dukstyna)
+  workday: 5:28 5:58 6:03 6:13 6:28 6:58 7:28 7:58 8:23* 8:53* 10:13* 10:43* 11:13 11:43 12:13* 12:43* 13:28 13:58 14:23* 14:53* 14:58 15:28 15:58* 16:23* 16:58 17:58 18:43 19:13 19:43 20:13 20:43
+  weekend: 6:28 7:28 8:28* 10:13* 10:47 11:13 12:13* 13:28 13:47 14:23* 15:28 16:23 17:58* 19:13 20:13
+  note *: važiuoja iki Dukstynos
+route 2 | Autobusų stotis - Koklių f.-Deltuva
+  workday: 4:51 6:35 7:15 7:45 8:25 8:55* 9:40* 10:55 11:50 12:05 13:00 13:25 14:20 14:45 15:35* 16:35 17:45 18:55* 20:50
+  note *: važiuoja iki Autobusų stoties
+route 4 | Autobusų stotis - Žaliasis vnk. - Pašilė
+  workday: 5:38 6:32 7:08 7:38 8:03* 8:38* 9:43 10:23** 10:48 11:28** 11:53 12:30** 13:01 13:58 14:58 15:53 16:08* 16:53* 17:53* 18:38 19:38*
+  weekend: 7:15 8:15 9:10 10:50 11:45 12:50 13:50 14:50 15:50 16:50 17:50 19:50
+  note *: važiuoja iki Autobusų stoties
+  note **: užsuka į Dukstyną
+route 5 | Pašilė (Linų g.)
+  workday: 4:39 14:56 23:26
+route 6 | Autobusų stotis - Žaliasis vienkiemis
+  workday: 6:46 7:36 8:16* 9:36 10:16 11:01 11:41 12:36 13:16 15:41* 16:15* 17:31 18:16 19:01 19:46*
+  weekend: 6:35 7:47 8:55 10:00 11:40** 12:10 12:50** 14:00 15:10 16:20 17:30 19:10 20:20
+  note *: važiuoja iki Autobusų stoties
+  note **: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:21 13:51

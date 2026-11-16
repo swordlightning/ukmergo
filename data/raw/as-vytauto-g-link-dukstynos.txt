@@ -1,0 +1,19 @@
+stop: Autobusų stotis (Vytauto g.)
+source: as-vytauto-g-link-dukstynos.jpg
+route 1 | Dukstyna
+  workday: 8:30 9:00 10:20 10:50 12:20 12:50 14:30 15:00 17:07 18:07
+  weekend: 8:35 10:20 12:20 14:30 18:05
+route 2 | Koklių f. - Biofabrikas
+  workday: 4:45 4:58* 5:22 6:02 6:42 7:22 7:52 8:32 9:52 10:37 11:02 11:57 12:12 13:07 13:32 14:27 14:52 16:42 17:52 19:47 20:57
+  note *: važiuoja į Pašilę
+route 4 | Pašilė
+  workday: 4:45 5:45 6:15 6:45 7:15 7:45 8:55 9:30* 9:50 10:30* 10:55 11:35* 12:04 12:45* 13:08 14:05 15:05 16:00 16:50 17:45 18:45
+  note *: užsuka į Dukstyną
+route 5 | Pašilė (Linų g.)
+  workday: 4:45 15:02 23:32
+route 6 | Žaliasis vnk.
+  workday: 6:20 7:10 7:50 9:10 9:50 10:35 11:15 12:10 12:50 15:15 15:50 17:05 17:50 18:35 19:20
+route 6 | Dukstyna
+  weekend: 11:46 12:56
+route 7 | Žaliasis vienk.-Narbuto
+  workday: 4:57 13:25

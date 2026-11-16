@@ -1,0 +1,6 @@
+stop: Vyšnių
+source: vysniu-9link-zaliojo-vnk.jpg
+route 3 | Žaliasis vienkiemis
+  saturday: 9:04 10:14 11:34
+route 6 | Žaliasis vienkiemis
+  weekend: 6:04 7:16 7:44 8:24 9:34 11:09 12:19 13:29 14:39 15:49 16:59 18:39 19:49

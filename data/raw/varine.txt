@@ -1,0 +1,4 @@
+stop: Varinė
+source: varine.jpg
+route 4 | Autobusų stotis
+  workday: 9:29 11:39 12:47 14:44 17:29

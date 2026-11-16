@@ -1,0 +1,6 @@
+stop: Lytagros centras
+source: lytagros-centras-link-biofabriko.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 6:00* 6:40* 7:20 8:00 8:30 9:15 10:30 11:15* 11:40 12:35 12:50* 13:45* 14:10* 15:05 15:30* 17:20 18:30
+  weekend: 7:43 8:38 10:26 12:22 13:32
+  note *: važiuoja iki Deltuvos

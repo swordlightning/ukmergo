@@ -1,0 +1,6 @@
+stop: Gamyklų
+source: gamyklu.jpg
+route 5 | Narbuto
+  workday: 5:27 13:59
+route 5 | Pašilė
+  workday: 15:27 23:57

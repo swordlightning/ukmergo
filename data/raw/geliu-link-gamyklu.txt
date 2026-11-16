@@ -1,0 +1,6 @@
+stop: Gėlių
+source: geliu-link-gamyklu.jpg
+route 5 | Narbuto
+  workday: 5:25 13:57
+route 5 | Pašilė
+  workday: 15:26 23:56

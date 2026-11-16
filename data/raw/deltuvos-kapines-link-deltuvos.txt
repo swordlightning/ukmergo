@@ -1,0 +1,4 @@
+stop: Deltuvos kapinės
+source: deltuvos-kapines-link-deltuvos.jpg
+route 2 | Deltuva
+  workday: 6:07 6:47 11:22 12:57 13:52 14:17 15:37 18:34

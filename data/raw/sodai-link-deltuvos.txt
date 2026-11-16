@@ -1,0 +1,4 @@
+stop: Sodai
+source: sodai-link-deltuvos.jpg
+route 2 | Deltuva
+  workday: 6:06 6:46 11:21 12:56 13:51 14:16 15:36 18:33

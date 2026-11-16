@@ -1,0 +1,6 @@
+stop: Linų
+source: linu-link-gamyklu.jpg
+route 5 | Pašilė
+  workday: 15:25 23:55
+route 5 | Narbuto
+  workday: 5:23 13:55

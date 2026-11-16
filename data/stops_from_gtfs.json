@@ -1,0 +1,296 @@
+[
+ {
+  "gtfs_id": "33_V21463",
+  "name": "Anykščių g.",
+  "lat": 55.256894,
+  "lon": 24.783307
+ },
+ {
+  "gtfs_id": "33_V21369",
+  "name": "Autobusų stotis",
+  "lat": 55.259569,
+  "lon": 24.790478
+ },
+ {
+  "gtfs_id": "33_V4138",
+  "name": "Autoservisas",
+  "lat": 55.252711,
+  "lon": 24.77302
+ },
+ {
+  "gtfs_id": "33_V3576",
+  "name": "Basanavičiaus",
+  "lat": 55.251993,
+  "lon": 24.77119
+ },
+ {
+  "gtfs_id": "33_V21889",
+  "name": "Biofabrikas",
+  "lat": 55.244009,
+  "lon": 24.722545
+ },
+ {
+  "gtfs_id": "33_V21616",
+  "name": "Boruvka",
+  "lat": 55.240387,
+  "lon": 24.790864
+ },
+ {
+  "gtfs_id": "33_V24250",
+  "name": "Boruvka 1",
+  "lat": 55.239507,
+  "lon": 24.792262
+ },
+ {
+  "gtfs_id": "33_V24251",
+  "name": "Boruvka 1",
+  "lat": 55.239115,
+  "lon": 24.793166
+ },
+ {
+  "gtfs_id": "33_V21515",
+  "name": "Gedimino g.",
+  "lat": 55.251576,
+  "lon": 24.763608
+ },
+ {
+  "gtfs_id": "33_V5913",
+  "name": "Gedimino g.",
+  "lat": 55.252567,
+  "lon": 24.762363
+ },
+ {
+  "gtfs_id": "33_V5920",
+  "name": "Gedimino g.",
+  "lat": 55.252232,
+  "lon": 24.762734
+ },
+ {
+  "gtfs_id": "33_V21614",
+  "name": "Gelžbetonis",
+  "lat": 55.241958,
+  "lon": 24.785517
+ },
+ {
+  "gtfs_id": "33_V34436",
+  "name": "Gerseniškių g.",
+  "lat": 55.239855,
+  "lon": 24.735719
+ },
+ {
+  "gtfs_id": "33_V34434",
+  "name": "Gerseniškių pirma",
+  "lat": 55.24399,
+  "lon": 24.730882
+ },
+ {
+  "gtfs_id": "33_V41304",
+  "name": "Gėlių",
+  "lat": 55.234882,
+  "lon": 24.762915
+ },
+ {
+  "gtfs_id": "33_V12691",
+  "name": "Januškos",
+  "lat": 55.234548,
+  "lon": 24.721948
+ },
+ {
+  "gtfs_id": "33_V14778",
+  "name": "Januškos",
+  "lat": 55.234573,
+  "lon": 24.721409
+ },
+ {
+  "gtfs_id": "33_V3599",
+  "name": "Kauno",
+  "lat": 55.2465,
+  "lon": 24.757536
+ },
+ {
+  "gtfs_id": "33_V3871",
+  "name": "Kauno",
+  "lat": 55.246286,
+  "lon": 24.756897
+ },
+ {
+  "gtfs_id": "33_V21619",
+  "name": "Krekšliai apsisukimas",
+  "lat": 55.246114,
+  "lon": 24.795916
+ },
+ {
+  "gtfs_id": "33_V21554",
+  "name": "Kudirkos",
+  "lat": 55.255216,
+  "lon": 24.778968
+ },
+ {
+  "gtfs_id": "33_V3587",
+  "name": "Kudirkos",
+  "lat": 55.254607,
+  "lon": 24.777705
+ },
+ {
+  "gtfs_id": "33_V21469",
+  "name": "Kęstučio a.",
+  "lat": 55.250134,
+  "lon": 24.763766
+ },
+ {
+  "gtfs_id": "33_V3575",
+  "name": "Kęstučio aikštė",
+  "lat": 55.249977,
+  "lon": 24.76378
+ },
+ {
+  "gtfs_id": "33_V21461",
+  "name": "Ligoninė",
+  "lat": 55.258612,
+  "lon": 24.787406
+ },
+ {
+  "gtfs_id": "33_V3605",
+  "name": "Ligoninė",
+  "lat": 55.258648,
+  "lon": 24.78736
+ },
+ {
+  "gtfs_id": "33_V3865",
+  "name": "Ligoninė",
+  "lat": 55.258021,
+  "lon": 24.785882
+ },
+ {
+  "gtfs_id": "33_V24176",
+  "name": "Linų g.",
+  "lat": 55.238739,
+  "lon": 24.776114
+ },
+ {
+  "gtfs_id": "33_V14693",
+  "name": "Mikailiškiai 1",
+  "lat": 55.26382,
+  "lon": 24.723696
+ },
+ {
+  "gtfs_id": "33_V4761",
+  "name": "Mikailiškiai 1",
+  "lat": 55.264307,
+  "lon": 24.722018
+ },
+ {
+  "gtfs_id": "33_V21598",
+  "name": "Miškų urėdija",
+  "lat": 55.228941,
+  "lon": 24.78394
+ },
+ {
+  "gtfs_id": "33_V21591",
+  "name": "Muziejus",
+  "lat": 55.249888,
+  "lon": 24.766281
+ },
+ {
+  "gtfs_id": "33_V21592",
+  "name": "Muziejus",
+  "lat": 55.250293,
+  "lon": 24.766179
+ },
+ {
+  "gtfs_id": "33_V3600",
+  "name": "Pramonės",
+  "lat": 55.243294,
+  "lon": 24.747884
+ },
+ {
+  "gtfs_id": "33_V3898",
+  "name": "Pramonės",
+  "lat": 55.243043,
+  "lon": 24.747121
+ },
+ {
+  "gtfs_id": "33_V3610",
+  "name": "Senas paštas",
+  "lat": 55.245042,
+  "lon": 24.753162
+ },
+ {
+  "gtfs_id": "33_V3918",
+  "name": "Senas paštas",
+  "lat": 55.24472,
+  "lon": 24.752193
+ },
+ {
+  "gtfs_id": "33_V10352",
+  "name": "Statikai",
+  "lat": 55.244252,
+  "lon": 24.727503
+ },
+ {
+  "gtfs_id": "33_V13321",
+  "name": "Statikai",
+  "lat": 55.244264,
+  "lon": 24.728644
+ },
+ {
+  "gtfs_id": "33_V21512",
+  "name": "Turgus",
+  "lat": 55.251999,
+  "lon": 24.756208
+ },
+ {
+  "gtfs_id": "33_V21513",
+  "name": "Turgus",
+  "lat": 55.249893,
+  "lon": 24.758307
+ },
+ {
+  "gtfs_id": "33_V19468",
+  "name": "Ukmergės autobusų stotis",
+  "lat": 55.259262,
+  "lon": 24.791787
+ },
+ {
+  "gtfs_id": "33_V91607",
+  "name": "Ukmergės autobusų stotis",
+  "lat": 55.25949,
+  "lon": 24.790579
+ },
+ {
+  "gtfs_id": "33_V21688",
+  "name": "Ukmergės pieninė",
+  "lat": 55.238084,
+  "lon": 24.730787
+ },
+ {
+  "gtfs_id": "33_V3615",
+  "name": "Ukmergės stotis",
+  "lat": 55.260106,
+  "lon": 24.790866
+ },
+ {
+  "gtfs_id": "33_V21479",
+  "name": "Umega",
+  "lat": 55.240551,
+  "lon": 24.73976
+ },
+ {
+  "gtfs_id": "33_V21811",
+  "name": "Umega",
+  "lat": 55.240126,
+  "lon": 24.737979
+ },
+ {
+  "gtfs_id": "33_V21627",
+  "name": "Žolių",
+  "lat": 55.264124,
+  "lon": 24.7627
+ },
+ {
+  "gtfs_id": "33_V21630",
+  "name": "Žolių",
+  "lat": 55.263434,
+  "lon": 24.762404
+ }
+]

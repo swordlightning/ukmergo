@@ -1,0 +1,10 @@
+stop: Miškų
+source: misku-link-pasiles.jpg
+route 3 | Pašilė
+  saturday: 9:55
+route 4 | Pašilė
+  workday: 5:12 6:12 6:42 7:12 7:42 8:12 9:22* 10:00 10:22 11:00 11:22* 12:05 12:31* 13:15 13:35 14:32* 15:32 16:27 17:17 18:12 19:12
+  weekend: 6:49 7:49 8:49 10:24 11:24 12:14 13:24 14:24 15:24 16:24 17:24 19:24
+  note *: važiuoja iki Varinės
+route 5 | Pašilė
+  workday: 5:06 15:32 24:02

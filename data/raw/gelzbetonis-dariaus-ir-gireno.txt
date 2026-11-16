@@ -1,0 +1,5 @@
+stop: Gelžbetonis*
+source: gelzbetonis-dariaus-ir-gireno.jpg
+route 2 | Koklių f.
+  workday: 5:12 6:19 6:59 7:39 8:09 8:49 10:09 10:54 11:19 12:14 12:29 13:24 13:49 14:44 15:09 16:59 18:09 20:04 21:12
+  note *: autobusų stotelė Gelžbetonis esanti Dariaus ir Girėno g.

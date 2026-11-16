@@ -1,0 +1,14 @@
+stop: Miškų
+source: misku.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:43* 21:43
+  note *: važiuoja iki Deltuvos
+route 2 | Biofabrikas
+  weekend: 10:08
+route 4 | Autobusų stotis
+  workday: 5:30 6:24 7:00 7:30 7:55 8:30 9:35 10:15* 10:40 11:20* 11:45 12:22* 12:53 13:50 14:50 15:45 16:00 16:45 17:45 18:30 19:30
+  weekend: 7:05 8:05 9:00 10:40 11:35 12:40 13:40 14:40 15:40 16:40 17:40 19:40
+  note *: važiuoja iki Dukstynos
+route 5 | Narbuto
+  workday: 5:16 13:48 24:09*
+  note *: važiuoja iki Žiedo g.

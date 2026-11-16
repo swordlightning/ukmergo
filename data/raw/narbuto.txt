@@ -1,0 +1,6 @@
+stop: Narbuto
+source: narbuto.jpg
+route 1 | Autobusų stotis
+  workday: 5:50 6:00 14:45
+route 5 | Pašilė
+  workday: 14:45 23:15

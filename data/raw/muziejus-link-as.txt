@@ -1,0 +1,15 @@
+stop: Muziejus
+source: muziejus-link-as.jpg
+route 3 | Turgus
+  saturday: 8:14 9:39 10:44
+route 4 | Pašilė (Autobusų stotis)
+  workday: 5:36 6:30 7:06 7:36 8:01** 8:36** 9:41 10:21* 10:46 11:26* 11:51 12:28* 12:59 13:56 14:56 15:51 16:06** 16:51** 17:51 18:36 19:36**
+  weekend: 7:13 8:13 9:08 10:48 11:43 12:48 13:48 14:48 15:48 16:48 17:48 19:48
+  note *: užsuka į Dukstyną
+  note **: važiuoja iki Autobusų stoties
+route 6 | Žaliasis vnk. (Autobusų stotis)
+  workday: 6:44 7:34 8:14 9:34 10:14 10:59 11:39 12:34 13:14 15:39 16:14 17:29 18:14 18:59 19:44
+  weekend: 6:33 7:45 8:53 9:58 11:38* 12:08 12:48* 13:58 15:08 16:18 17:28 19:08 20:18
+  note *: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:19 13:49

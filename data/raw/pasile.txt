@@ -1,0 +1,15 @@
+stop: Pašilė
+source: pasile.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:40* 21:40
+  note *: važiuoja iki Deltuvos
+route 2 | Biofabrikas
+  weekend: 10:05
+route 4 | Autobusų stotis
+  workday: 5:25 6:19 6:55 7:25 7:50 8:25 9:30** 10:10* 10:35 11:15* 11:40** 12:17* 12:48** 13:45 14:45** 15:40 15:55 16:40 17:40 18:25 19:25
+  weekend: 7:00 8:00 8:55 10:35 11:30 12:35 13:35 14:35 15:35 16:35 17:35 19:35
+  note *: važiuoja iki Dukstynos
+  note **: važiuoja nuo Varinės
+route 5 | Narbuto
+  workday: 5:10 13:42 24:06*
+  note *: važiuoja iki Žiedo g.

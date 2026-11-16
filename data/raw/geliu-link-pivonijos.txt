@@ -1,0 +1,6 @@
+stop: Gėlių
+source: geliu-link-pivonijos.jpg
+route 5 | Narbuto
+  workday: 5:28 14:00
+route 5 | Pašilė
+  workday: 15:28 23:58

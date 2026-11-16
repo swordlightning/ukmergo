@@ -1,0 +1,16 @@
+stop: Senasis paštas
+source: senasis-pastas.jpg
+route 1 | Pieninė
+  workday: 4:54* 5:04 5:29 5:59 6:29 6:59 7:29 7:59 8:29 9:44 10:14 10:49 11:19 11:44 12:14 12:59 13:29 13:59 14:29 15:04 15:29 15:59 16:29 17:29 18:14 18:44 19:14 19:44 20:14
+  weekend: 5:59 6:59 7:59 9:44 10:49 11:44 12:59 13:59 14:59 15:59 17:29 18:44 19:44
+  note *: važiuoja iki Bofabriko
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:57* 6:37* 7:17 7:57 8:27 9:12 10:27 11:12* 11:37 12:32 12:47* 13:42* 14:07* 15:02 15:27* 17:17 18:27 20:22 21:57**
+  weekend: 7:40 8:35 10:23 12:19 13:29
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 5 | Narbuto
+  workday: 5:38 14:10 24:15*
+  note *: važiuoja iki Žiedo g.
+route 7 | Narbuto
+  workday: 5:40 14:09

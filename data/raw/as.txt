@@ -1,0 +1,25 @@
+stop: Autobusų stotis
+source: as.jpg
+route 1 | Pieninė
+  workday: 4:15** 4:50 5:15 5:45 6:15 6:45 7:15 7:45 8:15 9:30 10:00 10:35* 11:05* 11:30 12:00 12:45 13:15 13:45 14:15 14:45* 15:15* 15:45 16:15 17:15 18:00 18:30* 19:00 19:30 20:00
+  weekend: 5:45 6:45 7:45 9:30 10:35* 11:30 12:45 13:45 14:45* 15:45 17:15 18:30* 19:30
+  note *: važiuoja iš Vytauto g. stotelės
+  note **: važiuoja iki Biofabriko
+route 2 | Koklių f.
+  workday: 4:58* 6:02 6:42* 7:22* 7:52* 8:32* 9:52 10:37 11:02* 11:57* 12:12* 13:07* 13:32* 14:27* 14:52* 16:42* 17:52* 19:47 20:57*
+  note *: važiuoja iš Vytauto g. stotelės
+route 4 | Pašilė
+  workday: 4:45 5:45* 6:15 6:45* 7:15* 7:45* 8:55 9:30** 9:50* 10:30* 10:55* 11:35* 12:04 12:45** 13:08* 14:05* 15:05* 16:00 16:50 17:45* 18:45*
+  weekend: 6:30 7:00*** 7:30 8:30 10:05 11:05 11:55 13:05 14:05 15:05 16:05 17:05 19:05
+  note *: važiuoja iš Vytauto g. stotelės
+  note **: užsuka į Dukstyną
+  note ***: važiuoja iki Koklių
+route 6 | Žaliasis vnk.
+  workday: 6:20* 7:10 7:50 9:10 9:50 10:35 11:15 12:10 12:50 13:25 15:15 15:50 17:05 17:50 18:35 19:20
+  weekend: 5:45 6:55 7:25 8:05 9:15 10:50 12:00* 13:10* 14:20 15:30 16:40 18:20 19:30
+  note *: važiuoja iš Vytauto g. stotelės
+route 5 | Pašilė
+  workday: 4:45* 15:02* 23:32*
+  note *: važiuoja iš Vytauto g. stot.
+route 7 | Narbuto
+  workday: 4:57 13:25

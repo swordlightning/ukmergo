@@ -1,0 +1,10 @@
+stop: Bažnyčios
+source: baznycios-link-pasiles.jpg
+route 2 | Pašilė
+  weekend: 9:57
+route 4 | Pašilė
+  workday: 5:15 6:15 6:45 7:15 7:45 8:15 9:25* 10:03 10:25 11:03 11:25* 12:08 12:34* 13:18 13:38 14:35* 15:35 16:30 17:20 18:15 19:15
+  weekend: 6:52 7:52 8:52 10:27 11:27 12:17 13:27 14:27 15:27 16:27 17:27 19:27
+  note *: važiuoja iki Varinės
+route 5 | Pašilė
+  workday: 5:09 15:35 24:05

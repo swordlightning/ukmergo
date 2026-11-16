@@ -1,0 +1,23 @@
+stop: Kudirkos
+source: kudirkos-link-as.jpg
+route 1 | Autobusų stotis (Dukstyna)
+  workday: 5:30 6:00 6:05 6:15 6:30 7:00 7:30 8:00 8:25* 8:55* 9:15* 10:15* 10:45* 11:15 11:45 12:15* 12:45* 13:30 14:00 14:25* 14:55* 15:00 15:30 16:00* 16:25* 17:00 18:00 18:45 19:15 19:45 20:15 20:45
+  weekend: 6:30 7:30 8:30* 10:15* 10:49 11:15 12:15* 13:30 13:49 14:25* 15:30 16:25 18:00* 19:15 20:15
+  note *: važiuoja iki Dukstynos
+route 2 | Žaliasis vnk. - Koklių f.
+  workday: 4:53 5:37 7:17 7:47 8:27 8:57* 9:42* 10:57 11:52 12:07 13:02 13:27 14:22 14:47 15:37* 16:37 17:47 18:57* 20:52
+  note *: važiuoja iki autobusų stoties
+route 4 | Autobusų stotis - Žaliasis vnk. - Pašilė
+  workday: 5:40 6:34 7:10 7:40 8:05* 8:40* 9:45 10:25** 10:50 11:30** 11:55 12:32** 13:03 14:00 15:00 15:55 16:10* 16:55* 17:55* 18:40 19:40*
+  weekend: 7:17 8:17 9:12 10:52 11:47 12:52 13:52 14:52 15:52 16:52 17:52 19:52
+  note *: važiuoja iki autobusų stoties
+  note **: užsuka į Dukstyną
+route 5 | Pašilė (Linų g.)
+  workday: 4:41 14:58 23:28
+route 6 | Autobusų stotis - Žaliasis vnk.
+  workday: 6:48 7:38 8:17* 9:38 10:18 11:03 11:43 12:38 13:18 15:43 16:16 17:33 18:18 19:03 19:48*
+  weekend: 6:37 7:49 8:57 10:01 11:42** 12:12 12:52** 14:02 15:12 16:22 17:32 19:12 20:22
+  note *: važiuoja iki autobusų stoties
+  note **: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:22 13:52

@@ -1,0 +1,19 @@
+stop: Žaliasis vienkiemis
+source: zaliasis-vienkiemis.jpg
+route 2 | Koklių f.
+  workday: 5:05 6:52 7:32 8:02 8:42 10:02 10:47 11:12 12:07 12:22 13:17 13:42 14:37 15:02 16:52 18:02 19:57 20:05
+  remark: no 6:12 departure printed although the next stop (Šaltalankių) has 6:14; last value printed in hour 20 but Šaltalankių has 21:07
+route 3 | Turgus
+  saturday: 8:00 9:25 10:30
+route 4 | Pašilė
+  workday: 4:55 5:55 6:25 6:55 7:25 7:55 9:05* 9:43 10:05 10:43 11:05* 11:48 12:14* 12:58 13:18 14:15* 15:15 16:10 17:00 17:55 18:55
+  note *: važiuoja iki Varinės
+route 5 | Pašilė
+  workday: 4:55 15:12* 23:42*
+  note *: užsuka į Linų g.
+route 6 | Autobusų stotis
+  workday: 6:30 7:20 8:00 9:20 10:00 10:45 11:25 12:20 13:00 15:25 16:00 17:15 18:00 18:45 19:30
+  weekend: 6:20 7:32 8:40 9:45 11:25* 11:55 12:35* 13:45 14:55 16:05 17:15 18:55 20:05
+  note *: važiuoja iki Dukstynos
+route 7 | Narbuto
+  workday: 5:05 13:35

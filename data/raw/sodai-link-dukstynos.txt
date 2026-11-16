@@ -1,0 +1,19 @@
+stop: Sodai
+source: sodai-link-dukstynos.jpg
+route 1 | Dukstyna
+  workday: 8:32 9:02 10:22 10:52 12:22 12:52 14:32 15:02 17:08 18:08
+  weekend: 8:37 10:22 12:22 14:32 18:07
+route 2 | Koklių f. - Biofabrikas
+  workday: 4:59* 6:04 6:44 7:24 7:54 8:34 9:54 10:39 11:04 11:59 12:14 13:09 13:34 14:29 14:54 16:44 17:54 19:49 20:59*
+  note *: važiuoja iki Pašilės
+route 4 | Pašilė
+  workday: 4:47 5:47 6:17 6:47 7:17 7:47 8:57 9:32* 9:52 10:32* 10:57 11:37* 12:06 12:47* 13:10 14:07 15:07 16:02 16:52 17:47 18:47
+  note *: važiuoja pro Dukstyną
+route 5 | Pašilė (Linų g.)
+  workday: 4:47 15:04 23:34
+route 6 | Žaliasis vnk.
+  workday: 6:22 7:12 7:52 9:12 9:52 10:37 11:17 12:12 12:52 15:17 15:52 17:07 17:52 18:37 19:22
+route 6 | Dukstyna
+  weekend: 11:47 12:57
+route 7 | Pašilė (Linų g.)
+  workday: 4:59 13:27

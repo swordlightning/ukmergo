@@ -1,0 +1,4 @@
+stop: Biofabrikas
+source: biofabrikas-link-deltuvos.jpg
+route 2 | Deltuva
+  workday: 6:03 6:43 11:18 12:53 13:48 14:13 15:33 18:32

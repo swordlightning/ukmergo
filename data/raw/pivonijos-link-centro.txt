@@ -1,0 +1,14 @@
+stop: Pivonijos
+source: pivonijos-link-centro.jpg
+route 2 | Biofabrikas (Deltuva)
+  workday: 5:46* 6:26* 7:06 7:46 8:16 9:01 10:16 11:01* 11:26 12:21 12:36* 13:31* 13:56* 14:51 15:16* 17:06 18:16 20:11 21:46**
+  weekend: 7:28 8:27 9:27 10:11 12:07 13:17
+  note *: važiuoja iki Deltuvos
+  note **: važiuoja iki Žiedo g.
+route 4 | Autobusų stotis (Dukstyna)
+  workday: 5:32 6:26 7:02 7:32 7:57 8:32 9:37 10:17* 10:42 11:22* 11:47 12:24* 12:55 13:52 14:52 15:47 16:02 16:47 17:47 18:32 19:32
+  weekend: 7:07 8:07 9:02 10:42 11:37 12:42 13:42 14:42 15:42 16:42 17:42 19:42
+  note *: važiuoja iki Dukstynos
+route 5 | Narbuto
+  workday: 5:21 13:53 24:08*
+  note *: važiuoja iki Žiedo g.
